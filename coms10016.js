@@ -1,6 +1,6 @@
 //UNIT DETAILS
-var unitName      = " ";
-var unitCode      = " ";
+var unitName      = "Unit Website";
+var unitCode      = "COMS10016";
 var startWeekNum  = 1;                         // start week number [usual start is week 1 or 13]
 var totalWeeks    = 12; // 11;                  // total teaching weeks for unit [usually 12]
 
