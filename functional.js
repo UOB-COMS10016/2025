@@ -1,4 +1,4 @@
-const currentWeek   = 1;
+const currentWeek   = 0;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
