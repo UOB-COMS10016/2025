@@ -118,8 +118,7 @@ If you have any problems while installing, try these tips:
 <hr/>
 
 At this point your system is ready for most of the COMS10016 unit and you are ready to start programming in C and Haskell. Further installations
-are optional at the beginning of the unit. However, during the last part of the unit we will use graphics, and for this we will need the SDL2 graphics libraries 
-and a Linux desktop environment...
+are optional at the beginning of the unit. However, during the last part of the unit we will use graphics, and for this we will need the SDL2 graphics libraries.
 
 
 <h2>INSTALL THE SDL2 DEVELOPMENT PACKAGE</h2>
@@ -127,34 +126,9 @@ and a Linux desktop environment...
   <li>In an Ubuntu terminal, run <code>sudo apt install libsdl2-dev</code></li>
 </ul>
 
-<h2>INSTALL THE VCXSRV WINDOWS X-SERVER</h2>
+<h2>CHECKING SDL2</h2>
 <ul>
-<li>Open a web browser and go to <a href="https://sourceforge.net/projects/vcxsrv/files/latest/download" target="_blank">https://sourceforge.net/projects/vcxsrv/files/latest/download</a> to download the installer</li> 
-<li>Run the installer</li>
-<li>If your windows administrator password is required, provide it and press enter to confirm</li>
-<li>The installation window should open. Click "Next", then "Install", and finally "Close".</li>  
-</ul>
-
-<h2>INSTALL THE LXDE LINUX DESKTOP</h2>
-<ul>
-<li>In an Ubuntu terminal, run <code>sudo apt install lxde</code></li>
-<li>If asked which display manager to use, select "lightdm"</li>
-<li>After some significant installation time, the LXDE Linux desktop should be installed</li>
-</ul>
-
-<h2>RUNNING THE LINUX DESKTOP AND CHECKING SDL2</h2>
-<ul>
-<li>Windows search "xlaunch" and click on "XLaunch" in the results. A display settings window should open.</li>
-<li>Select "One large window" and click "Next".</li>
-<li>Select "Start no client" and click "Next".</li>
-<li>Make sure "Clipboard", "Primary Selection", "Native opengl", and "Disable access control" are ticked, then click "Next".</li>
-<li>Click "Finish" and a black VcXsrv window should open</li>
-<li>If you get a security alert saying "Windows Defender Firewall has blocked some features of VcXsrv windows xserver on all public and private networks", under "Allow VcXsrv windows xserver to communicate on these networks:", make sure "Private networks" and "Public networks" are checked, then click "Allow access". Ideally this wouldn't be necessary, but it's been an <a href="https://github.com/microsoft/WSL/issues/4139" target="_blank">open issue since 2019</a>.</li>
-<li>In an Ubuntu terminal, run <code>export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0</code></li>
-<li>Run <code>export LIBGL_ALWAYS_INDIRECT=1</code></li>
-<li>Run <code>startlxde</code></li>
-<li>A Linux desktop should appear in the VcXsrv window</li>
-<li>Open a terminal on the Linux desktop by going to "System Tools" and selecting "LXTerminal"</li>
+<li>Make doubly sure that you're using WSL2 (check <code>wsl --version</code>) and it's up to date (run <code>wsl --update</code>).</li>
 <li>Download the program <a href="hellosdl.c" target="_blank">hellosdl.c</a> and save it into a new folder, e.g. you could make a folder called "SDL-Test" in your local "Documents" folder and save it there.</li>
 <li>In your Ubuntu terminal, change directory to folder where you just saved the file, e.g. if you saved it in "Documents\SDL-Test" and you set up the "WindowsDocuments" symlink earlier, you could run <code>cd ~/WindowsDocuments/SDL-Test</code>
 <li>Compile the program in that folder by running <code>clang -std=c11 -Wall hellosdl.c -I /usr/include/SDL2 -l SDL2 -o hellosdl</code> , where the 'I' (uppercase i) in <code>-I /usr/include/SDL2</code> stands for "Include" and the 'l' (lowercase L) in <code>-l SDL2</code> stands for "link".</li>

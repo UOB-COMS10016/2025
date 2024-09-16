@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 12,
+    { currentWeek = 1,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -43,30 +43,29 @@ functionalPage =
         , materials =
             [ external "Guest seminar VOD: Haskell in the Datacentre" "https://web.microsoftstream.com/video/17f0fbf7-461c-4cf1-937f-21e8407a137e"
             , external "Paper: How functional programming mattered" "https://mengwangoxf.github.io/Papers/NSR15.pdf"
-            , external "Bristol PL Research Group" "https://bristolpl.github.io/"
+            , external "Bristol PL Research Group" "https://plrg-bristol.github.io/"
             ]
         }
     , Entry
         { title = "Welcome & Introduction"
         , spec = Lecture
             { firstOrSecond = First
-            , slidesFile' = Nothing 
+            , slidesFile' = Just (External "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing")
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ slide "COMS10016_intro.pdf"
-            , slide "intro-FP.pdf"
+            [ external "Welcome to Functional Programming Slides" "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing"
             ]
         }
     , Entry
-        { title = "Using GHCi & First Program"
+        { title = "Haskell Syntax"
         , spec = Lecture
             { firstOrSecond = Second
-            , slidesFile' = Just (BB "GHCi-and-prelude.pdf")
+            , slidesFile' = Nothing
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ slide "GHCi-and-prelude.pdf"
+            [ -- slide "GHCi-and-prelude.pdf"
             ]
         }
     , Entry
@@ -78,7 +77,7 @@ functionalPage =
     -- Week 2
   , [ 
       Entry
-        { title = "Functions & Basic Types"
+        { title = "Recursion"
         , spec = Lecture
             { firstOrSecond = First
             , slidesFile' = Just (BB "Functions-and-Basic-Types.pdf") 
@@ -683,13 +682,13 @@ entryToActivity catDict entry@(Entry {title, spec, materials})
       , dateTime = case spec of
           ExtraMaterials -> "(optional)"
           History -> "(optional)"
-          SetupLab{} -> "Wed 27/09/23<br/>10:00-13:00<br/>MVB2.11/1.15"
+          SetupLab{} -> "Mon 16/09/24<br/>15:00-18:00<br/>Wed 18/09/24<br/>10:00-13:00<br/>MVB2.11/1.15"
           Worksheet{} -> "Mon 15:00-18:00<br/>MVB2.11/1.15"
           WorksheetBonus{} -> "(optional)"
-          Lectures{} -> "Mon 11:00-11:50<br/>Thurs 16:00-16:50<br/>PHYS BLDG 1.11 TYNDALL"
+          Lectures{} -> "Mon 10:00-10:50<br/>Thurs 16:00-16:50<br/>Chem LT1"
           Lecture{firstOrSecond} -> case firstOrSecond of
-            First  -> "Mon 11:00-11:50<br/>PHYS BLDG 1.11 TYNDALL"
-            Second -> "Thurs 16:00-16:50<br/>PHYS BLDG 1.11 TYNDALL"
+            First  -> "Mon 10:00-10:50<br/>Chem LT1"
+            Second -> "Thurs 16:00-16:50<br/>Chem LT1"
           LectureExtra{} -> "(optional)"
           NotesExtra -> "in your own time"
           Coursework{..} -> "Deadline: " ++ deadline
