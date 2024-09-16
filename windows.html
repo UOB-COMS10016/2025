@@ -29,9 +29,11 @@
 
 <div align="center"><img src="win.jpg" width="100px"><br/>COMS10016 | Week 01 | Preparation<br/><h1>SYSTEM SETUP FOR WINDOWS 10 or 11</h1></div>
 
-This is a brief tutorial on how to setup your personal Windows 10 or 11 64bit Home or Professional system to be ready for the COMS10016 unit. 
-The below steps represent one out of many ways of setting up your Windows 10 or 11 system for the unit. Before you start make sure Windows 10 or 11 is up-to-date with respect to updates and features. 
-It is your responsibility to keep your personal system and passwords safe.
+<p>This is a brief tutorial on how to setup your personal Windows 10 or 11 64bit <b>Home</b> or <b>Professional</b> system to be ready for the COMS10016 unit.</p>
+
+<p>The below steps represent one out of many ways of setting up your Windows 10 or 11 system for the unit. Before you start make sure Windows 10 or 11 is up-to-date with respect to updates and features.</p>
+
+<p>It is your responsibility to keep your personal system and passwords safe.</p>
 
 <h2>TROUBLESHOOTING TIPS</h2>
 
@@ -55,6 +57,7 @@ If you have any problems while installing, try these tips:
     <li>Your system is not in S-Mode and your "Edition" is either "Windows 10 Home" or "Windows 10 Professional" or "Windows 11 Home" or "Windows 11 Professional" without "S Mode". If you need to switch out of S-Mode, follow the instructions on the <a href="https://support.microsoft.com/en-gb/help/4456067/windows-10-switch-out-of-s-mode" target="_blank">Microsoft Support Page</a>.</li>
     <li>If you use Windows 10 then "Version" must be at least 2004, including 20H2, 20H2, 21H1, 21H2. Version 1909 and before are unsupported. If you are running Version 1909 or earlier, you must update your system by going to "Settings -> Update & Security -> Windows Update", then checking for updates and installing any that are available.</li>
   </ul>
+<li>Unfortunately, the Chinese Family Edition (家庭中文版) of Windows <i>will not work</i> with the following instructions. This is because it restricts certain virtual machine features. You will have to install a different operating system (e.g. Ubuntu or Windows 11 Home), use a different computer with a supported OS, or use the lab machines. <b>NOTE:</b> Just because your Windows machine is from China or set to Chinese, doesn't mean it won't work. It's specifically 家庭中文版 which doesn't work. Windows 10 or 11 Home or Professional editions should work regardless of where they were purchased or the language settings (though English is appreciated, for the benefit of our TAs trying to help you).</li>
 </ul> 
 
 
@@ -64,7 +67,12 @@ If you have any problems while installing, try these tips:
   <li>Windows search "powershell".</li> 
   <li>Right-click "Windows PowerShell" (<strong>not</strong> "Windows Powershell (x86)") and click "Run as administrator".</li> 
   <li>Click yes on the consent prompt and an elevated PowerShell will open.</li>
-  <li>In PowerShell, run <code>wsl --set-default-version 2</code> (i.e. type "wsl --set-default-version 2" and press enter), then run <code>wsl --install -d Ubuntu</code>. If PowerShell can't find the <code>wsl</code> command, make sure your Windows is fully updated, then try again. If it still isn't there, make sure PowerShell is in 64-bit mode by running <code>[Environment]::Is64BitProcess</code> (which will return "True" if it is and "False" if it isn't). </li>
+  <li>Make sure WSL is updated: <code>wsl --update</code>
+      <ul>
+        <li>If PowerShell can't find the <code>wsl</code> command, make sure your Windows is fully updated, then try again. If it still isn't there, make sure PowerShell is in 64-bit mode by running <code>[Environment]::Is64BitProcess</code> (which will return "True" if it is and "False" if it isn't).</li>
+      </ul>
+  </li>
+  <li>In PowerShell, run <code>wsl --set-default-version 2</code> (i.e. type "wsl --set-default-version 2" and press enter), then run <code>wsl --install -d Ubuntu</code>.</li>
   <li>Once the command finishes, restart your computer (unless an Ubuntu window opens immediately, in which case just continue to the next step).</li>
   <li>Soon after your computer reboots, an Ubuntu window should open and complete the installation process. This may take a few minutes.</li>
   <li>Once the installation is complete, you will be prompted to enter a UNIX username and password in the Ubuntu window. Make sure you remember them. You can use any username, but many people just use their name in lowercase (eg. "tilo"). <strong>Important:</strong> When you enter your password it won't display any characters as you type. <strong>This is not a bug, your password is still being entered.</strong></li>
@@ -83,7 +91,7 @@ If you have any problems while installing, try these tips:
 
 
 <ul>
-<li>In an Ubuntu terminal, first install the dependencies for GHCup by running <code>sudo apt install build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5</code></li>
+<li>In an Ubuntu terminal, first install the dependencies for GHCup by running <code>sudo apt update</code> then <code>sudo apt install build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5</code></li>
 
 <li>Once that's done, run <code>curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh</code></li>
 
@@ -93,7 +101,7 @@ If you have any problems while installing, try these tips:
 <li>When asked about enabling better integration of stack, select "Yes" by entering "Y".</li>
 <li>Press enter to proceed and wait for the installation to finish.</li>
 <li>This will install <code>ghc</code> (the Haskell compiler), <code>ghci</code> (the Haskell <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop" target="_blank">REPL</a>), <code>cabal</code> (a Haskell package manager), and the Haskell Language Server (a.k.a. HLS, which adds <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" target="_blank">IDE</a> support for Haskell)</li>
-<li>Close and reopen your Ubuntu terminal so the updated PATH variable in .bashrc can take effect, giving you access to the programs you just installed.</li>
+<li><b>Close and reopen your Ubuntu terminal</b> so the updated PATH variable in .bashrc can take effect, giving you access to the programs you just installed.</li>
 <li>Check they're working by running <code>ghc --version</code>, <code>cabal --version</code>, and <code>haskell-language-server-wrapper --version</code>. If they've installed correctly, each of these commands should print out version information.</li>
 <li>Update cabal's package list by running <code>cabal update</code></li>
 <li>Install QuickCheck by running <code>cabal install --lib QuickCheck</code></li>
