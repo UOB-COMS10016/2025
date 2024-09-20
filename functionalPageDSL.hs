@@ -65,7 +65,7 @@ functionalPage =
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ -- slide "GHCi-and-prelude.pdf"
+            [ code "Lecture1.hs"
             ]
         }
     , Entry
@@ -900,7 +900,7 @@ answersBonus i = map sheet
 -- Link construction
 
 bbRootDir :: URL
-bbRootDir = "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/"
+bbRootDir = "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/"
 
 comingSoonPage :: URL
 comingSoonPage = "" -- funcRootDir ++ "coming-soon.html"
