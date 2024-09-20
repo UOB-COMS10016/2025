@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 1,
+    { currentWeek = 2,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -51,7 +51,7 @@ functionalPage =
         , spec = Lecture
             { firstOrSecond = First
             , slidesFile' = Just (External "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing")
-            , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
+            , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/a59fa0f036804fd19768d9b5d6adfe361d"
             }
         , materials =
             [ external "Welcome to Functional Programming Slides" "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing"
@@ -61,8 +61,8 @@ functionalPage =
         { title = "Haskell Syntax"
         , spec = Lecture
             { firstOrSecond = Second
-            , slidesFile' = Nothing
-            , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
+            , slidesFile' = Just (BBCode "Lecture1.hs")
+            , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/c515bd32fe8341e6b7927be4739cdf821d"
             }
         , materials =
             [ code "Lecture1.hs"
@@ -80,22 +80,22 @@ functionalPage =
         { title = "Recursion"
         , spec = Lecture
             { firstOrSecond = First
-            , slidesFile' = Just (BB "Functions-and-Basic-Types.pdf") 
+            , slidesFile' = Nothing -- Just (BBSlide "Functions-and-Basic-Types.pdf") 
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ slide "Functions-and-Basic-Types.pdf"
+            [ -- slide "Functions-and-Basic-Types.pdf"
             ]
         }
     , Entry
-        { title = "Polymorphism & Currying"
+        { title = "Types"
         , spec = Lecture
             { firstOrSecond = Second
-            , slidesFile' = Just (BB "Polymorphism-and-currying.pdf")
+            , slidesFile' = Nothing -- Just (BBSlide "Polymorphism-and-currying.pdf")
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ slide "Polymorphism-and-currying.pdf"
+            [ -- slide "Polymorphism-and-currying.pdf"
             ]
         }
     , Entry
@@ -103,7 +103,7 @@ functionalPage =
         , spec = Worksheet "sheet01.pdf"
         , materials = concat
             [ sheets 1
-            , answers 1
+            -- , answers 1
             ]
         }
     ]
@@ -117,26 +117,26 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "Data types & Type classess"
+          { title = "Lists"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "datatypes.pdf") 
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b919533801c484a85eabc42a4fb00811d"
+              , slidesFile' = Nothing -- Just (BBSlide "datatypes.pdf") 
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b919533801c484a85eabc42a4fb00811d"
               }
           , materials =
-              [ slide "datatypes.pdf"
+              [ -- slide "datatypes.pdf"
               ]
           }
       , Entry
-          { title = "Pattern matching & Card game"
+          { title = "Polymorphism and Typeclasses"
           , spec = Lecture
               { firstOrSecond = Second
-              , slidesFile' = Just (BB "card-game.pdf")
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/837fc7dcb31f4cf3883e09656e4a1a7c1d"
+              , slidesFile' = Nothing -- Just (BBSlide "card-game.pdf")
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/837fc7dcb31f4cf3883e09656e4a1a7c1d"
               }
           , materials =
-              [ slide "card-game.pdf"
-              , code "card.hs"
+              [ --slide "card-game.pdf"
+              -- , code "card.hs"
               ]
           }
       , Entry
@@ -164,25 +164,25 @@ functionalPage =
 
     -- Week 4
     , [ Entry
-          { title = "Recursion I"
+          { title = "Algebraic Datatypes (ADTs)"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "recursion1.pdf") 
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/a278ef2cf905455ab298fd11701a14101d"
+              , slidesFile' = Nothing -- Just (BBSlide "recursion1.pdf") 
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/a278ef2cf905455ab298fd11701a14101d"
               }
           , materials =
-              [ slide "recursion1.pdf"
+              [ -- slide "recursion1.pdf"
               ]
           }
       , Entry
-          { title = "Recursion II: Lists"
+          { title = "'Purity' and IO"
           , spec = Lecture
               { firstOrSecond = Second
-              , slidesFile' = Just (BB "recursion2.pdf")
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/8cfe56ca3375406a80c5f3ed9ad6f1381d"
+              , slidesFile' = Nothing -- Just (BBSlide "recursion2.pdf")
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/8cfe56ca3375406a80c5f3ed9ad6f1381d"
               }
           , materials =
-              [ slide "recursion2.pdf"
+              [ -- slide "recursion2.pdf"
               ]
           }
       , Entry
@@ -214,26 +214,26 @@ functionalPage =
       ]
     -- Week 5
     , [ Entry
-          { title = "Lists & List Comprehensions"
+          { title = "More IO"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "list-comp.pdf") 
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b795e3925a94303abbe44b1d5964f521d"
+              , slidesFile' = Nothing -- Just (BBSlide "list-comp.pdf") 
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b795e3925a94303abbe44b1d5964f521d"
               }
           , materials =
-              [ slide "list-comp.pdf"
-              , code "list.hs"
+              [ -- slide "list-comp.pdf"
+              -- , code "list.hs"
               ]
           }
         , Entry
-            { title = "Evaluation"
+            { title = "Higher-order Functions"
             , spec = Lecture
                 { firstOrSecond = Second
-                , slidesFile' = Just (BB "evaluation.pdf") 
-                , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/9f89d107dd6c412c8f768a88660e83071d"
+                , slidesFile' = Nothing -- Just (BBSlide "evaluation.pdf") 
+                , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/9f89d107dd6c412c8f768a88660e83071d"
                 }
             , materials =
-                [ slide "evaluation.pdf"
+                [ -- slide "evaluation.pdf"
                 ]
             }
       , Entry
@@ -261,31 +261,32 @@ functionalPage =
 
     -- Week 7
     , [ Entry
-          { title = "Higher Order Functions I"
+          { title = "More Higher-order Functions"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "week7.pdf")
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/4cbcea53e1b7462ea0bee7ac686cbf011d"
+              , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/4cbcea53e1b7462ea0bee7ac686cbf011d"
               }
           , materials =
-              [ code "HObp.hs"
-              , slide "week7.pdf"
-              , code "HO.hs"
-              , code "MinuteSheetQR.png"
+              [ -- code "HObp.hs"
+              -- , slide "week7.pdf"
+              -- , code "HO.hs"
+              -- , code "MinuteSheetQR.png"
               ]
           }
         , Entry
-            { title = "Higher Order Functions II"
+            { title = "Folds Part 1"
             , spec = Lecture
                 { firstOrSecond = Second
-                , slidesFile' = Just (BB "week7.pdf")
-                , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/66b95c12968545049d366df2b9cbb25a1d"
+                , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+                , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/66b95c12968545049d366df2b9cbb25a1d"
                 }
             , materials =
-                [ code "HObp.hs"
-                , slide "week7.pdf"
-                , code "HO.hs"
-                , code "MinuteSheetQR.png"
+                [ 
+                --   code "HObp.hs"
+                -- , slide "week7.pdf"
+                -- , code "HO.hs"
+                -- , code "MinuteSheetQR.png"
                 ]
             }
       , Entry
@@ -315,32 +316,34 @@ functionalPage =
       ]
     -- Week 8
     , [ Entry
-          { title = "Folds I"
+          { title = "Folds Part 2"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "week7.pdf")
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/34caa8c6a85c47348b4108030ca0bc641d"
+              , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/34caa8c6a85c47348b4108030ca0bc641d"
               }
           , materials =
-              [ code "FoldsBP.hs"
-              , slide "week7.pdf"
-              , code "Folds.hs"
-              , code "MinuteSheetQR.png"
-              , code "Recap.hs"
+              [ 
+              --   code "FoldsBP.hs"
+              -- , slide "week7.pdf"
+              -- , code "Folds.hs"
+              -- , code "MinuteSheetQR.png"
+              -- , code "Recap.hs"
               ]
           }
         , Entry
-            { title = "Folds II"
+            { title = "Functors"
             , spec = Lecture
                 { firstOrSecond = Second
-                , slidesFile' = Just (BB "week7.pdf")
-                , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
+                , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+                , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
                 }
             , materials =
-                [ code "FoldsBP.hs"
-                , slide "week7.pdf"
-                , code "Folds.hs"
-                , code "MinuteSheetQR.png"
+                [ 
+                --   code "FoldsBP.hs"
+                -- , slide "week7.pdf"
+                -- , code "Folds.hs"
+                -- , code "MinuteSheetQR.png"
                 ]
             }
       , Entry
@@ -378,15 +381,29 @@ functionalPage =
       ]
   -- week 9
     , [ Entry
-          { title = "IO and Generators"
+          { title = "Programs as Data Tranformations"
           , spec = Lecture
-              { firstOrSecond = Second
-              , slidesFile' = Just (BB "IO-and-Gen.pdf")
+              { firstOrSecond = First
+              , slidesFile' = Nothing -- Just (BBSlide "IO-and-Gen.pdf")
               , lectureRecording = Nothing
               }
           , materials =
-              [ slide "IO-and-Gen.pdf"
-              , code "ExampleIO.hs"
+              [ 
+              --   slide "IO-and-Gen.pdf"
+              -- , code "ExampleIO.hs"
+              ]
+          }
+      , Entry
+          { title = "Monads I"
+          , spec = Lecture
+              { firstOrSecond = Second
+              , slidesFile' = Nothing -- Just (BBSlide "IO-and-Gen.pdf")
+              , lectureRecording = Nothing
+              }
+          , materials =
+              [ 
+              --   slide "IO-and-Gen.pdf"
+              -- , code "ExampleIO.hs"
               ]
           }
       , Entry
@@ -408,27 +425,29 @@ functionalPage =
       ]
   --   -- Week 10
     , [ Entry
-          { title = "QuickCheck Generators: II"
+          { title = "Monads II"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Just (BB "Generators.pdf")
+              , slidesFile' = Nothing -- Just (BBSlide "Generators.pdf")
               , lectureRecording = Nothing
               }
           , materials =
-              [ slide "Generators.pdf"
-              , code "questions.hs"
+              [ 
+              --   slide "Generators.pdf"
+              -- , code "questions.hs"
               ]
           }
       , Entry
-          { title = "Functors"
+          { title = "Model-View-Update Pattern"
           , spec = Lecture
               { firstOrSecond = Second
-              , slidesFile' = Just (External $ codeLink "Functor2023.hs")
+              , slidesFile' = Nothing -- Just (External $ codeLink "Functor2023.hs")
               , lectureRecording = Nothing
               }
           , materials =
-              [ code "Functor2023.hs"
-              , note' "kinds.png"
+              [ 
+              --   code "Functor2023.hs"
+              -- , note' "kinds.png"
               ]
           }
 
@@ -446,30 +465,32 @@ functionalPage =
 
   --   -- Week 11
     , [ Entry
-            { title = "Applicatives"
+            { title = "TBD"
             , spec = 
               Lecture
                 { firstOrSecond = First
-                , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
+                , slidesFile' = Nothing -- Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
                 , lectureRecording = Nothing
                 }
             , materials =
-                [ external "Functors and Applicatives slides + quiz"
-                           "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
-                , code "ApplicativeLive2023.hs"
+                [ 
+                --   external "Functors and Applicatives slides + quiz"
+                --            "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
+                -- , code "ApplicativeLive2023.hs"
                 ]
             }
          , Entry
-          { title = "Applicatives cont. and Monads"
+          { title = "Mock Test (in-class interactive quiz)"
           , spec = Lecture
               { firstOrSecond = Second
-              , slidesFile' = Just (External "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e")
+              , slidesFile' = Nothing -- Just (External "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e")
               , lectureRecording = Nothing
               }
           , materials =
-              [ external "Monads slides and quiz"
-                         "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e"
-              , code "ApplicativeLive2023Updated.hs"
+              [ 
+              --   external "Monads slides and quiz"
+              --            "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e"
+              -- , code "ApplicativeLive2023Updated.hs"
               ]
           }
       -- , Entry
@@ -502,34 +523,35 @@ functionalPage =
       ]
 
     -- Week 12/revision week
-    , [ Entry
-          { title = "Mock Test Walkthrough"
-          , spec = 
-            Lecture
-              { firstOrSecond = First
-              , slidesFile' = Just (External $ noteLink "COMS10016-Mock.pdf")
-              , lectureRecording = Nothing
-              }
-          , materials =
-              [ note' "COMS10016-Mock.pdf"
-              , note' "COMS10016-Mock-answers.pdf"
-              , slide "Mock.hs"
-              , slide "SamMock.pdf"
-              ]
-          }
-      , Entry
-          { title = "Functor/Applicative recap and Quiz + Q&A"
-          , spec = Lecture
-              { firstOrSecond = Second
-              , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
-              , lectureRecording = Nothing
-              }
-          , materials =
-              [ external "Functors and Applicatives slides + quiz"
-                          "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
-              ]
-          }
-      , Entry
+    , [ 
+      --   Entry
+      --     { title = "Mock Test Walkthrough"
+      --     , spec = 
+      --       Lecture
+      --         { firstOrSecond = First
+      --         , slidesFile' = Just (External $ noteLink "COMS10016-Mock.pdf")
+      --         , lectureRecording = Nothing
+      --         }
+      --     , materials =
+      --         [ note' "COMS10016-Mock.pdf"
+      --         , note' "COMS10016-Mock-answers.pdf"
+      --         , slide "Mock.hs"
+      --         , slide "SamMock.pdf"
+      --         ]
+      --     }
+      -- , Entry
+      --     { title = "Functor/Applicative recap and Quiz + Q&A"
+      --     , spec = Lecture
+      --         { firstOrSecond = Second
+      --         , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
+      --         , lectureRecording = Nothing
+      --         }
+      --     , materials =
+      --         [ external "Functors and Applicatives slides + quiz"
+      --                     "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
+      --         ]
+      --     }
+        Entry
           { title = "Revision of previous sheets"
           , spec = Worksheet "sheet09.pdf"
           , materials = []
@@ -775,7 +797,10 @@ data EntrySpec
 
 data FirstOrSecond = First | Second deriving (Show, Eq, Ord)
 
-data SlidesPath = BB FilePath | External URL
+data SlidesPath
+  = BBSlide  FilePath
+  | BBCode   FilePath
+  | External URL
   deriving (Show, Eq)
 
 data Material = MkMaterial
@@ -926,7 +951,8 @@ maybeSlidesPathToURL = maybe comingSoonPage slidesPathToUrl
 slidesPathToUrl :: SlidesPath -> URL
 slidesPathToUrl slidesFile
   = case slidesFile of
-      BB path -> slideLink path
+      BBSlide path -> slideLink path
+      BBCode  path -> codeLink path
       External url -> url
 
 codeLink :: String -> URL
