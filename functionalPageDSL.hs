@@ -106,6 +106,16 @@ functionalPage =
             -- , answers 1
             ]
         }
+    , Entry
+        { title = ""
+        , spec = NotesExtra
+        , materials = map (uncurry note)
+            [ ("Types", "Types.pdf")
+            , ("Haskell PoDs", "HaskellPoDs.pdf")
+            , ("Branching", "Branching.pdf")
+            , ("Guards", "Guards.pdf")
+            ]
+        }
     ]
   --   -- Week 3
     , [ Entry
@@ -143,13 +153,10 @@ functionalPage =
           { title = ""
           , spec = NotesExtra
           , materials = map (uncurry note)
-              [ ("Types", "Types.pdf")
-              , ("Haskell PoDs", "HaskellPoDs.pdf")
-              , ("Data Constructors", "DataConstructors.pdf")
+              [ 
+                ("Data Constructors", "DataConstructors.pdf")
               , ("Tuples", "Tuples.pdf")
               -- , ("Function Composition", "FunctionComposition.pdf")
-              , ("Branching", "Branching.pdf")
-              , ("Guards", "Guards.pdf")
               -- , ("Laziness", "Laziness.pdf")
               , ("Type Classes", "TypeClasses.pdf")
               , ("Recipe for writing functions", "FunctionRecipe.pdf")
