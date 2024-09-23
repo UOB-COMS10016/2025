@@ -80,11 +80,11 @@ functionalPage =
         { title = "Recursion"
         , spec = Lecture
             { firstOrSecond = First
-            , slidesFile' = Nothing -- Just (BBSlide "Functions-and-Basic-Types.pdf") 
+            , slidesFile' = Just (BBCode "Recursion.hs")
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ -- slide "Functions-and-Basic-Types.pdf"
+            [ code "Recursion.hs"
             ]
         }
     , Entry
