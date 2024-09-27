@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 2,
+    { currentWeek = 3,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -41,9 +41,9 @@ functionalPage =
         { title = ""
         , spec = ExtraMaterials
         , materials =
-            [ external "Guest seminar VOD: Haskell in the Datacentre" "https://web.microsoftstream.com/video/17f0fbf7-461c-4cf1-937f-21e8407a137e"
-            , external "Paper: How functional programming mattered" "https://mengwangoxf.github.io/Papers/NSR15.pdf"
-            , external "Bristol PL Research Group" "https://plrg-bristol.github.io/"
+            [ -- external "Guest seminar VOD: Haskell in the Datacentre" "https://web.microsoftstream.com/video/17f0fbf7-461c-4cf1-937f-21e8407a137e"
+              -- , external "Paper: How functional programming mattered" "https://mengwangoxf.github.io/Papers/NSR15.pdf"
+              external "Bristol PL Research Group" "https://plrg-bristol.github.io/"
             ]
         }
     , Entry
@@ -95,7 +95,7 @@ functionalPage =
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
-            [ -- slide "Polymorphism-and-currying.pdf"
+            [ code "BasicTypes.hs"
             ]
         }
     , Entry
@@ -111,7 +111,8 @@ functionalPage =
         , spec = NotesExtra
         , materials = map (uncurry note)
             [ ("Types", "Types.pdf")
-            , ("Haskell PoDs", "HaskellPoDs.pdf")
+            , ("Plain old Datatypes", "HaskellPoDs.pdf")
+            , ("Tuples", "Tuples.pdf")
             , ("Branching", "Branching.pdf")
             , ("Guards", "Guards.pdf")
             ]
@@ -155,7 +156,6 @@ functionalPage =
           , materials = map (uncurry note)
               [ 
                 ("Data Constructors", "DataConstructors.pdf")
-              , ("Tuples", "Tuples.pdf")
               -- , ("Function Composition", "FunctionComposition.pdf")
               -- , ("Laziness", "Laziness.pdf")
               , ("Type Classes", "TypeClasses.pdf")
@@ -635,7 +635,7 @@ entryToCategory (Entry _ details materials) = case details of
         , materialLinkName = "Materials"
         }
   NotesExtra -> MkCat
-        { title = "Notes ft.<br>Extra Examples<br>+ Explanations"
+        { title = "Extra Notes,<br> Examples,<br> &amp; Explanations"
         , colour = "#94e5bf"
         , counter = False
         , slidesLinkName = ""
