@@ -81,7 +81,7 @@ functionalPage =
         , spec = Lecture
             { firstOrSecond = First
             , slidesFile' = Just (BBCode "Recursion.hs")
-            , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
+            , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/90e8085b9e344a14b9771946910913da1d"
             }
         , materials =
             [ code "Recursion.hs"
@@ -92,7 +92,7 @@ functionalPage =
         , spec = Lecture
             { firstOrSecond = Second
             , slidesFile' = Just (BBCode "BasicTypes.hs")
-            , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
+            , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fe1958cd22b54f59bed3004871aaff561d"
             }
         , materials =
             [ code "BasicTypes.hs"
