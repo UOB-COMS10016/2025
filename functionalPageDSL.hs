@@ -91,7 +91,7 @@ functionalPage =
         { title = "Types"
         , spec = Lecture
             { firstOrSecond = Second
-            , slidesFile' = Nothing -- Just (BBSlide "Polymorphism-and-currying.pdf")
+            , slidesFile' = Just (BBCode "BasicTypes.hs")
             , lectureRecording = Nothing -- ["https://mediasite.bris.ac.uk/Mediasite/Play/18e6ea68ad654e9aaafc9f34805f2c831d"]
             }
         , materials =
@@ -125,14 +125,14 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "Lists"
+          { title = "Pattern matching and Lists"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "datatypes.pdf") 
+              , slidesFile' = Just (BBCode "PatternsLists.hs")
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b919533801c484a85eabc42a4fb00811d"
               }
           , materials =
-              [ -- slide "datatypes.pdf"
+              [ code "PatternsLists.hs"
               ]
           }
       , Entry
