@@ -75,7 +75,7 @@ functionalPage =
         }
     ]
     -- Week 2
-  , [ 
+  , [
       Entry
         { title = "Recursion"
         , spec = Lecture
@@ -101,10 +101,7 @@ functionalPage =
     , Entry
         { title = "GHCi and Functions"
         , spec = Worksheet "sheet01.pdf"
-        , materials = concat
-            [ sheets 1
-            -- , answers 1
-            ]
+        , materials = sheets 1 ++ answers 1
         }
     , Entry
         { title = ""
@@ -118,7 +115,7 @@ functionalPage =
             ]
         }
     ]
-  --   -- Week 3
+    -- Week 3
     , [ Entry
           { title = "History of Haskell"
           , spec = History
@@ -150,22 +147,22 @@ functionalPage =
               -- , code "card.hs"
               ]
           }
+      -- , Entry
+      --     { title = ""
+      --     , spec = NotesExtra
+      --     , materials = map (uncurry note)
+      --         [
+      --           ("Data Constructors", "DataConstructors.pdf")
+      --         -- , ("Function Composition", "FunctionComposition.pdf")
+      --         -- , ("Laziness", "Laziness.pdf")
+      --         , ("Type Classes", "TypeClasses.pdf")
+      --         , ("Recipe for writing functions", "FunctionRecipe.pdf")
+      --         ]
+      --     }
       , Entry
-          { title = ""
-          , spec = NotesExtra
-          , materials = map (uncurry note)
-              [ 
-                ("Data Constructors", "DataConstructors.pdf")
-              -- , ("Function Composition", "FunctionComposition.pdf")
-              -- , ("Laziness", "Laziness.pdf")
-              , ("Type Classes", "TypeClasses.pdf")
-              , ("Recipe for writing functions", "FunctionRecipe.pdf")
-              ]
-          }
-      , Entry
-          { title = "Types, Type Classes, and Branching"
+          { title = "Lists and Laziness"
           , spec = Worksheet "sheet02.pdf"
-          , materials = sheets 2 ++ answers 2
+          , materials = sheets 2 -- (++ answers 2)
           }
       ]
 
@@ -289,7 +286,7 @@ functionalPage =
                 , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/66b95c12968545049d366df2b9cbb25a1d"
                 }
             , materials =
-                [ 
+                [
                 --   code "HObp.hs"
                 -- , slide "week7.pdf"
                 -- , code "HO.hs"
@@ -330,7 +327,7 @@ functionalPage =
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/34caa8c6a85c47348b4108030ca0bc641d"
               }
           , materials =
-              [ 
+              [
               --   code "FoldsBP.hs"
               -- , slide "week7.pdf"
               -- , code "Folds.hs"
@@ -346,7 +343,7 @@ functionalPage =
                 , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
                 }
             , materials =
-                [ 
+                [
                 --   code "FoldsBP.hs"
                 -- , slide "week7.pdf"
                 -- , code "Folds.hs"
@@ -395,7 +392,7 @@ functionalPage =
               , lectureRecording = Nothing
               }
           , materials =
-              [ 
+              [
               --   slide "IO-and-Gen.pdf"
               -- , code "ExampleIO.hs"
               ]
@@ -408,7 +405,7 @@ functionalPage =
               , lectureRecording = Nothing
               }
           , materials =
-              [ 
+              [
               --   slide "IO-and-Gen.pdf"
               -- , code "ExampleIO.hs"
               ]
@@ -439,7 +436,7 @@ functionalPage =
               , lectureRecording = Nothing
               }
           , materials =
-              [ 
+              [
               --   slide "Generators.pdf"
               -- , code "questions.hs"
               ]
@@ -452,7 +449,7 @@ functionalPage =
               , lectureRecording = Nothing
               }
           , materials =
-              [ 
+              [
               --   code "Functor2023.hs"
               -- , note' "kinds.png"
               ]
@@ -473,14 +470,14 @@ functionalPage =
   --   -- Week 11
     , [ Entry
             { title = "TBD"
-            , spec = 
+            , spec =
               Lecture
                 { firstOrSecond = First
                 , slidesFile' = Nothing -- Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
                 , lectureRecording = Nothing
                 }
             , materials =
-                [ 
+                [
                 --   external "Functors and Applicatives slides + quiz"
                 --            "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
                 -- , code "ApplicativeLive2023.hs"
@@ -494,7 +491,7 @@ functionalPage =
               , lectureRecording = Nothing
               }
           , materials =
-              [ 
+              [
               --   external "Monads slides and quiz"
               --            "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e"
               -- , code "ApplicativeLive2023Updated.hs"
@@ -530,7 +527,7 @@ functionalPage =
       ]
 
     -- Week 12/revision week
-    , [ 
+    , [
       --   Entry
       --     { title = "Mock Test Walkthrough"
       --     , spec = 
