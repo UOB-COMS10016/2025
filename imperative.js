@@ -43,7 +43,7 @@ var categories = [
 ["21", "Lecture:",        "#CCCFFF","0","",    "Code",     ],
 ["22", "Lecture:",             "#CCCFFF","0","",    "",          ],
 ["23", "",             "#EEEEDD","0","",    "",          ],
-["24", "More Advanced Exercises<br/></b><small><small>...only if you already know C well...</small></small><b>",  "#CCCCCC","0","",          "",],
+["24", "More Advanced Exercises<br/></b><small><small>Only if you already know C.</small></small><b>",  "#CCCCCC","0","",          "",],
 ];
 
 //WEEKLY ACTIVITIES
