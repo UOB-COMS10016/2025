@@ -43,7 +43,7 @@ var categories = [
 ["21", "Lecture:",        "#CCCFFF","0","",    "Code",     ],
 ["22", "Lecture:",             "#CCCFFF","0","",    "",          ],
 ["23", "",             "#EEEEDD","0","",    "",          ],
-["24", "Advanced Exercises<br/></b><small><small>...only if you know C already well...</small></small><b>",  "#CCCCCC","0","",          "",],
+["24", "More Advanced Exercises<br/></b><small><small>...only if you already know C well...</small></small><b>",  "#CCCCCC","0","",          "",],
 ];
 
 //WEEKLY ACTIVITIES
@@ -75,7 +75,7 @@ var activities = [
 ["0", "Thu 03/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",     "STRINGS", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_07.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/28cc121d4f214ceb9462400743deaa2b1d",  "37", "6"],
 ["0", "Fri 04/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "SEARCHING", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_08.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/28cc121d4f214ceb9462400743deaa2b1d",  "43", "1"],
 ["6", "Wed 02/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "GRADE CHALLENGE<a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week03/sample/grade.c' target='_blank'></a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week03/index.html", "", "25", "4"],
-["24", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
+["24", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
 ["0", "Fri 04/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "RUNTIME COMPLEXITY",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_09.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/953a9c1c02e7421b86ea1bbee3ec83ec1d", "43", "1"],
 ["9", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
