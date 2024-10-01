@@ -75,7 +75,7 @@ var activities = [
 ["0", "Fri 04/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "SEARCHING", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_08.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/28cc121d4f214ceb9462400743deaa2b1d",  "43", "1"],
 ["6", "Wed 02/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "GRADE CHALLENGE<a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week03/sample/grade.c' target='_blank'></a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week03/index.html", "", "25", "4"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Tue 17/10/23<br/>04:00pm-04:50pm<br/>PHYS BLDG G42 Powell",   "RUNTIME COMPLEXITY",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_09.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/953a9c1c02e7421b86ea1bbee3ec83ec1d", "43", "1"],
+["0", "Fri 04/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "RUNTIME COMPLEXITY",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_09.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/953a9c1c02e7421b86ea1bbee3ec83ec1d", "43", "1"],
 ["9", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
 
