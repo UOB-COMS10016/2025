@@ -199,20 +199,19 @@ functionalPage =
       ,  Entry
           { title = "ADTs and Pattern Matching"
           , spec = Worksheet "sheet03.pdf"
-          , materials = sheets 3 ++ answers 3
+          , materials = sheets 3 -- ++ answers 3
           }
       , Entry
           { title = "Power to the People"
           , spec = Coursework
               { instructions = "CW1/CW1-Instrs.pdf"
-              , submissionLink = "https://www.ole.bris.ac.uk/webapps/assignment/uploadAssignment?content_id=_8307455_1&course_id=_257219_1"
-              , deadline = "12:00 Thurs 09/11/23"
+              , submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline/assessment/test/_9219755_1?courseId=_259156_1&gradeitemView=details"
+              , deadline = "12:00 Tues 29/10/24"
               }
           , materials = map (coursework "CW1")
               [ "CW1-Instrs.pdf"
               , "CW1-InstrsDyslexic.pdf"
               , "CW1-PowerToThePeople.zip"
-              , "PowerTest.hs"
               ]
           }
       ]
