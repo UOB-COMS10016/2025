@@ -162,7 +162,7 @@ functionalPage =
       , Entry
           { title = "Lists and Laziness"
           , spec = Worksheet "sheet02.pdf"
-          , materials = sheets 2 -- (++ answers 2)
+          , materials = sheets 2 ++ answers 2
           }
       ]
 
