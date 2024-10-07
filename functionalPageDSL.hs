@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 3,
+    { currentWeek = 4,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -205,7 +205,7 @@ functionalPage =
           { title = "Power to the People"
           , spec = Coursework
               { instructions = "CW1/CW1-Instrs.pdf"
-              , submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline/assessment/test/_9219755_1?courseId=_259156_1&gradeitemView=details"
+              , submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline"
               , deadline = "12:00 Tues 29/10/24"
               }
           , materials = map (coursework "CW1")
@@ -649,7 +649,7 @@ entryToCategory (Entry _ details materials) = case details of
         , colour = "#EEEEDD"
         , counter = True
         , slidesLinkName = if not (null submissionLink)
-                           then "SUBMIT HERE (Blackboard)"
+                           then "Submit on Blackboard"
                            else ""
         , materialLinkName = "Materials"
         }

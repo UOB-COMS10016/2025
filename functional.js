@@ -1,4 +1,4 @@
-const currentWeek   = 3;
+const currentWeek   = 4;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -25,7 +25,7 @@ var categories = [
 ["6","History","#EEEEDD","0","","Materials",],
 ["7","Lecture","#CCCFFF","0","","Materials",],
 ["8","Lecture","#CCCFFF","0","","",],
-["9","Coursework","#EEEEDD","1","SUBMIT HERE (Blackboard)","Materials",],
+["9","Coursework","#EEEEDD","1","Submit on Blackboard","Materials",],
 ["10","Bonus Worksheet","#FCC981","1","","Materials",],
 ["11","Formative Practical","#EEEEDD","1","","Materials",],
 ["12","Bonus Lecture","#D8CCFF","0","","",],
@@ -65,7 +65,7 @@ const activities = [
 ["0","","","","","0","0",],
 ["5","in your own time","","","","25","1",],
 ["0","","","","","0","0",],
-["9","Deadline: 12:00 Tues 29/10/24","Power to the People","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/coursework/CW1/CW1-Instrs.pdf","https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline/assessment/test/_9219755_1?courseId=_259156_1&gradeitemView=details","26","3",],
+["9","Deadline: 12:00 Tues 29/10/24","Power to the People","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/coursework/CW1/CW1-Instrs.pdf","https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline","26","3",],
 ["0","","","","","0","0",],
 ["8","Mon 10:00-10:50<br/>Chem LT1","More IO","","","0","0",],
 ["8","Thurs 16:00-16:50<br/>Chem LT1","Higher-order Functions","","","0","0",],
