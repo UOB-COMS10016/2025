@@ -129,7 +129,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Just (BBCode "PatternsLists.hs")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b919533801c484a85eabc42a4fb00811d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/4a3f3721e8ec4fc18af181236c7378f01d"
               }
           , materials =
               [ code "PatternsLists.hs"
@@ -140,7 +140,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = Second
               , slidesFile' = Nothing -- Just (BBSlide "card-game.pdf")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/837fc7dcb31f4cf3883e09656e4a1a7c1d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fb4756e80010403aa137367145fe63a41d"
               }
           , materials =
               [ --slide "card-game.pdf"
@@ -171,11 +171,11 @@ functionalPage =
           { title = "Algebraic Datatypes (ADTs)"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "recursion1.pdf") 
+              , slidesFile' = Just (BBCode "ADTs.hs")
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/a278ef2cf905455ab298fd11701a14101d"
               }
           , materials =
-              [ -- slide "recursion1.pdf"
+              [ code "ADTs.hs"
               ]
           }
       , Entry
