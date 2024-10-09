@@ -199,7 +199,7 @@ functionalPage =
       ,  Entry
           { title = "ADTs and Pattern Matching"
           , spec = Worksheet "sheet03.pdf"
-          , materials = sheets 3 -- ++ answers 3
+          , materials = sheets 3 ++ answers 3
           }
       , Entry
           { title = "Power to the People"
