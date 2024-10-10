@@ -144,7 +144,7 @@ functionalPage =
               }
           , materials =
               [ --slide "card-game.pdf"
-              -- , code "card.hs"
+                code "Polymorphism.hs"
               ]
           }
       -- , Entry
