@@ -182,11 +182,12 @@ functionalPage =
           { title = "'Purity' and IO"
           , spec = Lecture
               { firstOrSecond = Second
-              , slidesFile' = Nothing -- Just (BBSlide "recursion2.pdf")
+              , slidesFile' = Just (BBCode "PurityAndIOBluePeter.lhs")
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/8cfe56ca3375406a80c5f3ed9ad6f1381d"
               }
           , materials =
-              [ -- slide "recursion2.pdf"
+              [ code "PurityAndIO.hs"
+              , code "PurityAndIOBluePeter.lhs"
               ]
           }
       , Entry
@@ -199,7 +200,7 @@ functionalPage =
       ,  Entry
           { title = "ADTs and Pattern Matching"
           , spec = Worksheet "sheet03.pdf"
-          , materials = sheets 3 -- ++ answers 3
+          , materials = sheets 3 ++ answers 3
           }
       , Entry
           { title = "Power to the People"
