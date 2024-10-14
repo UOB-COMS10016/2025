@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 4,
+    { currentWeek = 5,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -249,9 +249,9 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "Recursive Pattern Matching"
+          { title = "Programming with IO"
           , spec = Worksheet "sheet04.pdf"
-          , materials = sheets 4 ++ answers 4
+          , materials = sheets 4 -- ++ answers 4
           }
       , Entry
           { title = "Structural Inductive Proofs"
