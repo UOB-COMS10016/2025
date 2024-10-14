@@ -218,15 +218,15 @@ functionalPage =
       ]
     -- Week 5
     , [ Entry
-          { title = "More IO"
+          { title = "More IO (Katamari Haskacy)"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "list-comp.pdf") 
+              , slidesFile' = Just (BBCode "KatamariHaskacyBluePeter.lhs")
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b795e3925a94303abbe44b1d5964f521d"
               }
           , materials =
-              [ -- slide "list-comp.pdf"
-              -- , code "list.hs"
+              [ code "KatamariHaskacy.hs"
+              , code "KatamariHaskacyBluePeter.lhs"
               ]
           }
         , Entry
