@@ -172,7 +172,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Just (BBCode "ADTs.hs")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/a278ef2cf905455ab298fd11701a14101d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/da991129cc734ceeb958ce622d34a2d31d"
               }
           , materials =
               [ code "ADTs.hs"
@@ -183,7 +183,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = Second
               , slidesFile' = Just (BBCode "PurityAndIOBluePeter.lhs")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/8cfe56ca3375406a80c5f3ed9ad6f1381d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/c79199545fe943e29a048476ff4835981d"
               }
           , materials =
               [ code "PurityAndIO.hs"
@@ -222,7 +222,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Just (BBCode "KatamariHaskacyBluePeter.lhs")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/6b795e3925a94303abbe44b1d5964f521d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/ac580ab8f2024a64889b631b0882bd2d1d"
               }
           , materials =
               [ code "KatamariHaskacy.hs"
