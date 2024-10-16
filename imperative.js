@@ -81,17 +81,17 @@ var activities = [
 ["8", "",                     "",                                 "", "", "0", "0"],
 
 //WEEK 04 - BITS, POINTERS
-["3", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
+["4", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
 ["0", "Thu 10/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",    "BITS",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_10.pdf",        "https://mediasite.bris.ac.uk/Mediasite/Play/a3533af3bc4e4fc0906e5ca4f2133dcf1d", "56", "1"],
 ["0", "Fri 11/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",          "POINTERS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_11.pdf",           "https://mediasite.bris.ac.uk/Mediasite/Play/388e5402b8404f5d8dc76f2115f16cb31d",  "57", "2"],
-["6", "Wed 09/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'></a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/sample/strings.c' target='_blank'></a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/index.html", "", "44", "4"],
+["6", "Wed 09/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'>(Triangle Solution)</a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/sample/strings.c' target='_blank'>(Strings Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week04/index.html", "", "44", "4"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Thu 17/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",    "STRUCTURES &amp; USER TYPES",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_12_OR.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/7d3fe970d51b4ce69c1de4f69a99629a1d", "59", "2"],
 ["9", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
 
 //WEEK 05 - WORKING WITH POINTERS
-["3", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
+["4", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
 ["0", "Thu 17/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",    "DYNAMIC DATA",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_13_OR.pdf",        "https://web.microsoftstream.com/video/1c746e39-efab-4eea-9d42-35dfa9a876f9", "81", "5"],
 ["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "STACKS",            "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_14_OR.pdf",           "https://web.microsoftstream.com/video/125300f5-3aec-4318-a1ad-b80bc0aad486",  "79", "2"],
 ["8", "",                     "",                                 "", "", "0", "0"],
