@@ -94,7 +94,7 @@ var activities = [
 ["4", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
 ["0", "Thu 17/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",    "DYNAMIC DATA",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/COMS10016_13_OR.pdf",        "https://web.microsoftstream.com/video/1c746e39-efab-4eea-9d42-35dfa9a876f9", "81", "5"],
 ["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "STACKS",            "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_14_OR.pdf",           "https://web.microsoftstream.com/video/125300f5-3aec-4318-a1ad-b80bc0aad486",  "79", "2"],
-["7", "in your own time", "</a>LIST ASSIGNMENT<a><hr/>", "", "", "91", "3"],//</a>https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week06/index.html<a>
+["7", "in your own time", "</a>LIST ASSIGNMENT<a><hr/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/imperative/week06/index.html", "", "91", "3"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "LISTS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_15_OR.pdf",           "https://web.microsoftstream.com/video/40263cce-c988-4df7-9a24-1d28dc34b659",  "86", "2"],
 ["9", "",                     "",                                 "", "", "0", "0"],
