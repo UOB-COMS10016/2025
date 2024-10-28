@@ -304,7 +304,7 @@ functionalPage =
       , Entry
           { title = "HO Functions (filter, map, and more)"
           , spec = Worksheet "sheet05.pdf"
-          , materials = sheets 5 -- ++ answers 5
+          , materials = sheets 5 ++ answers 5
           }
       , Entry
           { title = "Sudoku"
