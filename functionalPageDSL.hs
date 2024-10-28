@@ -269,14 +269,12 @@ functionalPage =
           { title = "More Higher-order Functions"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+              , slidesFile' = Just (BBCode "HObp.hs")
               , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/4cbcea53e1b7462ea0bee7ac686cbf011d"
               }
           , materials =
-              [ -- code "HObp.hs"
-              -- , slide "week7.pdf"
-              -- , code "HO.hs"
-              -- , code "MinuteSheetQR.png"
+              [ code "HO.hs"
+              , code "HObp.hs"
               ]
           }
         , Entry
