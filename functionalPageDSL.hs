@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 5,
+    { currentWeek = 7,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -302,9 +302,9 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "List Comprehensions, Property Tests, and Evaluation"
+          { title = "HO Functions (filter, map, and more)"
           , spec = Worksheet "sheet05.pdf"
-          , materials = sheets 5 ++ answers 5
+          , materials = sheets 5 -- ++ answers 5
           }
       , Entry
           { title = "Sudoku"
