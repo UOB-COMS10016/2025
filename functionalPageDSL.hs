@@ -234,7 +234,7 @@ functionalPage =
             , spec = Lecture
                 { firstOrSecond = Second
                 , slidesFile' = Just (BBCode "HObp.hs")
-                , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/9f89d107dd6c412c8f768a88660e83071d"
+                , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/73924e27273242cba966e260978f13ff1d"
                 }
             , materials =
                 [ code "HO.hs"
@@ -270,7 +270,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Just (BBCode "HObp.hs")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/4cbcea53e1b7462ea0bee7ac686cbf011d"
+              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
               }
           , materials =
               [ code "HO.hs"
