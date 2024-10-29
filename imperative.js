@@ -112,12 +112,12 @@ var activities = [
 ["8", "",                     "",                                  "", "", "0", "0"],
 
 //WEEK 07 - 
-["9", "",                     "",                                 "", "", "0", "0"],
-["0", "Tue 07/11/23<br/>04:00pm-04:50pm<br/>PHYS BLDG G42 Powell",   "TREES",                       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_16_OR.pdf",   "https://mediasite.bris.ac.uk/Mediasite/Play/ba910510d107433b8ef0b94b1e92d2d81d", "94", "1"],
+["3", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
+["0", "Thu 31/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",   "TREES",                       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_16_OR.pdf",   "https://mediasite.bris.ac.uk/Mediasite/Play/ba910510d107433b8ef0b94b1e92d2d81d", "94", "1"],
 ["15", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                  "", "", "0", "0"],//["9", "",                     "",                                 "", "", "0", "0"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Thu 09/11/22<br/>11:00am-11:50am<br/>PHYS BLDG G42 Powell",   "SORTING",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_17_OR.pdf",      "https://mediasite.bris.ac.uk/Mediasite/Play/ab93766ee4b64918925dd1d8e18f8e111d", "105", "1"],
+["0", "Fri 01/11/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "SORTING",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_17_OR.pdf",      "https://mediasite.bris.ac.uk/Mediasite/Play/ab93766ee4b64918925dd1d8e18f8e111d", "105", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
  
