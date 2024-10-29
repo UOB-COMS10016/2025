@@ -98,7 +98,7 @@ var activities = [
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "LISTS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_15_OR.pdf",           "https://web.microsoftstream.com/video/40263cce-c988-4df7-9a24-1d28dc34b659",  "86", "2"],
 ["9", "",                     "",                                 "", "", "0", "0"],
-["8", "<b>Submission Deadline</b><br/>Thu 31/10/24<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Weds 30/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15<br/>", "", "", "0", "0"], 
+["8", "<b>Submission Deadline</b><br/>Thu 31/10/24<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Weds 30/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline;><b>Submit via Gradebook on Blackboard Page</b></a>", "", "", "0", "0"], 
 //["7", "in your own time", "</a>LIST ASSIGNMENT<hr/><a>", "", "", "0", "0"],
 
 //WEEK 06 - READING WEEK
