@@ -281,15 +281,12 @@ functionalPage =
             { title = "Folds Part 1"
             , spec = Lecture
                 { firstOrSecond = Second
-                , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
+                , slidesFile' = Just (BBCode "Folds.hs")
                 , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/66b95c12968545049d366df2b9cbb25a1d"
                 }
             , materials =
-                [
-                --   code "HObp.hs"
-                -- , slide "week7.pdf"
-                -- , code "HO.hs"
-                -- , code "MinuteSheetQR.png"
+                [ code "Folds.hs"
+                , code "FoldsBP.hs"
                 ]
             }
       , Entry
