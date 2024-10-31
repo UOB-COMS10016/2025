@@ -1,4 +1,4 @@
-const currentWeek   = 5;
+const currentWeek   = 7;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -83,9 +83,9 @@ const activities = [
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
-["2","Mon 10:00-10:50<br/>Chem LT1","More Higher-order Functions","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/HObp.hs","https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d","49","2",],
+["9","Mon 10:00-10:50<br/>Chem LT1","More Higher-order Functions","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/HObp.hs","","49","2",],
 ["9","Thurs 16:00-16:50<br/>Chem LT1","Folds Part 1","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/Folds.hs","","51","2",],
-["4","Mon 15:00-18:00<br/>MVB2.11/1.15","List Comprehensions, Property Tests, and Evaluation","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet05.pdf","","53","5",],
+["4","Mon 15:00-18:00<br/>MVB2.11/1.15","HO Functions (filter, map, and more)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet05.pdf","","53","5",],
 ["0","","","","","0","0",],
 ["5","in your own time","","","","58","3",],
 ["0","","","","","0","0",],

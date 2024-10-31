@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 5,
+    { currentWeek = 7,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -270,7 +270,7 @@ functionalPage =
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Just (BBCode "HObp.hs")
-              , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
               }
           , materials =
               [ code "HO.hs"
@@ -299,7 +299,7 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "List Comprehensions, Property Tests, and Evaluation"
+          { title = "HO Functions (filter, map, and more)"
           , spec = Worksheet "sheet05.pdf"
           , materials = sheets 5 ++ answers 5
           }
