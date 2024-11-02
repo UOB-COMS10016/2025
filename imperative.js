@@ -111,7 +111,7 @@ var activities = [
 ["8", "",                     "",                                  "", "", "0", "0"],
 
 //WEEK 07 - 
-["3", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
+["4", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
 ["0", "Thu 31/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",   "TREES",                       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_16_OR.pdf",   "https://mediasite.bris.ac.uk/Mediasite/Play/ba910510d107433b8ef0b94b1e92d2d81d", "94", "1"],
 ["15", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                  "", "", "0", "0"],
