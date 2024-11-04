@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 7,
+    { currentWeek = 8,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -282,7 +282,7 @@ functionalPage =
             , spec = Lecture
                 { firstOrSecond = Second
                 , slidesFile' = Just (BBCode "Folds.hs")
-                , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/66b95c12968545049d366df2b9cbb25a1d"
+                , lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/d08595d86d7040baa4e7999bdd5f90301d"
                 }
             , materials =
                 [ code "Folds.hs"
@@ -319,16 +319,12 @@ functionalPage =
           { title = "Folds Part 2"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "week7.pdf")
-              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/34caa8c6a85c47348b4108030ca0bc641d"
+              , slidesFile' = Just (BBCode "Folds.hs")
+              , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
               }
           , materials =
-              [
-              --   code "FoldsBP.hs"
-              -- , slide "week7.pdf"
-              -- , code "Folds.hs"
-              -- , code "MinuteSheetQR.png"
-              -- , code "Recap.hs"
+              [ code "Folds.hs"
+              , code "FoldsBP.hs"
               ]
           }
         , Entry
@@ -340,10 +336,7 @@ functionalPage =
                 }
             , materials =
                 [
-                --   code "FoldsBP.hs"
-                -- , slide "week7.pdf"
-                -- , code "Folds.hs"
-                -- , code "MinuteSheetQR.png"
+
                 ]
             }
       , Entry
@@ -385,7 +378,7 @@ functionalPage =
       ]
   -- week 9
     , [ Entry
-          { title = "Programs as Data Tranformations"
+          { title = "Programs as Data Transformations"
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Nothing -- Just (BBSlide "IO-and-Gen.pdf")
