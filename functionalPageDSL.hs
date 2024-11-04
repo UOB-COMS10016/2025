@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 7,
+    { currentWeek = 8,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -370,7 +370,7 @@ functionalPage =
       , Entry
           { title = "Simplify (Releases Thurs)"
           , spec = Coursework
-              { instructions = "" -- "CW2/CW2-Instrs.pdf"
+              { instructions = "not-released.html" -- "CW2/CW2-Instrs.pdf"
               , submissionLink = "" -- "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline"
               , deadline = "12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)"
               }

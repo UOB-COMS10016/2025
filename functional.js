@@ -1,4 +1,4 @@
-const currentWeek   = 7;
+const currentWeek   = 8;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -98,7 +98,7 @@ const activities = [
 ["0","","","","","0","0",],
 ["12","(optional)","Binary Trees with Alex Kavvos","https://mediasite.bris.ac.uk/Mediasite/Play/b3fcbbfaf52a4ea0a850d131b088c8ac1d","","0","0",],
 ["5","in your own time","","","","67","3",],
-["13","Deadline: 12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)","Simplify (Releases Thurs)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/coursework/","","0","0",],
+["13","Deadline: 12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)","Simplify (Releases Thurs)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/coursework/not-released.html","","0","0",],
 ["0","","","","","0","0",],
 ["11","Mon 10:00-10:50<br/>Chem LT1","Programs as Data Tranformations","","","0","0",],
 ["11","Thurs 16:00-16:50<br/>Chem LT1","Monads I","","","0","0",],
