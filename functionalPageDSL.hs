@@ -371,14 +371,17 @@ functionalPage =
           { title = "Simplify (Releases Thurs)"
           , spec = Coursework
               { instructions = "" -- "CW2/CW2-Instrs.pdf"
-              , submissionLink = "" -- "https://www.ole.bris.ac.uk/webapps/assignment/uploadAssignment?content_id=_8307456_1&course_id=_257219_1"
+              , submissionLink = "" -- "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline"
               , deadline = "12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)"
               }
           , materials = []
           -- , materials = map (coursework "CW2")
           --     [ "CW2-Instrs.pdf"
-          --     , "CW2-Simplify.zip" ]
+          --     , "CW2-InstrsDyslexic.pdf"
+          --     , "CW2-Simplify.zip"
+          --     ]
           }
+
       ]
   -- week 9
     , [ Entry
