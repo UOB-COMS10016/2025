@@ -252,7 +252,7 @@ functionalPage =
       , Entry
           { title = "Programming with IO"
           , spec = Worksheet "sheet04.pdf"
-          , materials = sheets 4 -- ++ answers 4
+          , materials = sheets 4 ++ answers 4
           }
       , Entry
           { title = "Structural Inductive Proofs"
