@@ -361,18 +361,17 @@ functionalPage =
           , materials = sheets 6 -- ++ answers 6
           }
       , Entry
-          { title = "Simplify (Releases Thurs)"
+          { title = "Simplify"
           , spec = Coursework
-              { instructions = "not-released.html" -- "CW2/CW2-Instrs.pdf"
-              , submissionLink = "" -- "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline"
+              { instructions = "CW2/CW2-Instrs.pdf"
+              , submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline"
               , deadline = "12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)"
               }
-          , materials = []
-          -- , materials = map (coursework "CW2")
-          --     [ "CW2-Instrs.pdf"
-          --     , "CW2-InstrsDyslexic.pdf"
-          --     , "CW2-Simplify.zip"
-          --     ]
+          , materials = map (coursework "CW2")
+              [ "CW2-Instrs.pdf"
+              , "CW2-InstrsDyslexic.pdf"
+              , "CW2-Simplify.zip"
+              ]
           }
 
       ]
