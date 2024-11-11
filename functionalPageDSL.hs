@@ -17,7 +17,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 8,
+    { currentWeek = 9,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -335,8 +335,7 @@ functionalPage =
                 , lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
                 }
             , materials =
-                [
-
+                [ code "Functors.hs"
                 ]
             }
       , Entry
@@ -358,7 +357,7 @@ functionalPage =
       , Entry
           { title = "Folds"
           , spec = Worksheet "sheet06.pdf"
-          , materials = sheets 6 -- ++ answers 6
+          , materials = sheets 6 ++ answers 6
           }
       , Entry
           { title = "Simplify"
@@ -375,7 +374,7 @@ functionalPage =
           }
 
       ]
-  -- week 9
+  -- Week 9
     , [ Entry
           { title = "Programs as Data Transformations"
           , spec = Lecture
@@ -409,9 +408,9 @@ functionalPage =
               [ ("Intro to IO", "Intro-to-IO.pdf") ]
           }
       , Entry
-          { title = "Folds"
+          { title = "Functors & Data Transformation"
           , spec = Worksheet "sheet07.pdf"
-          , materials = sheets 7 ++ answers 7
+          , materials = sheets 7 -- ++ answers 7
           }
       , Entry -- we do want this to go up, Sam promised it last week
           { title = "Monoids"
