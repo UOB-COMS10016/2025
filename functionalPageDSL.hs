@@ -379,13 +379,13 @@ functionalPage =
           { title = "Programs as Data Transformations"
           , spec = Lecture
               { firstOrSecond = First
-              , slidesFile' = Nothing -- Just (BBSlide "IO-and-Gen.pdf")
+              , slidesFile' = Just (BBSlide "function-composition.pdf")
               , lectureRecording = Nothing
               }
           , materials =
               [
-              --   slide "IO-and-Gen.pdf"
-              -- , code "ExampleIO.hs"
+                slide "function-composition.pdf"
+              , code "DataTransformations.hs"
               ]
           }
       , Entry
@@ -408,7 +408,7 @@ functionalPage =
               [ ("Intro to IO", "Intro-to-IO.pdf") ]
           }
       , Entry
-          { title = "Functors & Data Transformation"
+          { title = "Functors & Data Transformations"
           , spec = Worksheet "sheet07.pdf"
           , materials = sheets 7 -- ++ answers 7
           }
