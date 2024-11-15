@@ -145,7 +145,7 @@ var activities = [
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Thu 21/11/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",   "DESIGN", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_22_Design_NA.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/f205eea1d0014aa286f0bf98d613ee5f1d",  "112", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["7", "in your own time<hr/>support labs:<br/>Wed 20/11/24+<br/>Wed 27/11/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15<hr/>", "SKETCH ASSIGNMENT<hr/>deadline<br/>28/11/24<br/>01:00pm UK time<a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/week10CW/index.html", "", "133", "19"],
+["7", "in your own time", "SKETCH ASSIGNMENT<br/>(30% of unit mark)", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/week10CW/index.html", "", "133", "19"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 22/11/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "ADVANCED CONCEPTS",  "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_24.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/ff1c3ff560064ad0b8101bbe6cb2c90d1d", "152", "7"],
 ["10", "",                     "",                                 "", "", "0", "0"],
