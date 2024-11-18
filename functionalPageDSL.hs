@@ -700,7 +700,7 @@ entryToCategory (Entry _ details materials) = case details of
     MkCat
       { title = "Mock Test",
         colour = "#EEEEDD",
-        counter = True,
+        counter = False,
         slidesLinkName = "",
         materialLinkName = "Materials"
       }

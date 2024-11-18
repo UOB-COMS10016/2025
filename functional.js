@@ -29,7 +29,7 @@ var categories = [
 ["10","Formative Practical","#EEEEDD","1","","Materials",],
 ["11","Bonus Lecture","#D8CCFF","0","","",],
 ["12","Lecture","#CCCFFF","0","","",],
-["13","Mock Test","#EEEEDD","1","","Materials",],
+["13","Mock Test","#EEEEDD","0","","Materials",],
 
 ];
 
