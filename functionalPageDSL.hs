@@ -20,7 +20,7 @@ config :: Config
 config =
   MkConfig
     { currentWeek = 10,
-      activityNum = 11,
+      activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
       headerOn = True,
