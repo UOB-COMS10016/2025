@@ -125,14 +125,6 @@ const activities = [
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
-["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Revision of previous sheets","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","0","0",],
-["0","","","","","0","0",],
-["0","","","","","0","0",],
-["0","","","","","0","0",],
-["8","(optional)","Sheet of Death","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheetBonus4.pdf","","103","4",],
-["0","","","","","0","0",],
-["0","","","","","0","0",],
-["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
@@ -253,10 +245,6 @@ const files = [
 ["100","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09.pdf","answer09.pdf",],
 ["101","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09Dyslexic.pdf","answer09Dyslexic.pdf",],
 ["102","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/code09.hs","code09.hs",],
-["103","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheetBonus4.pdf","sheetBonus4.pdf",],
-["104","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheetBonus4Dyslexic.pdf","sheetBonus4Dyslexic.pdf",],
-["105","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answerBonus4.pdf","answerBonus4.pdf",],
-["106","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answerBonus4Dyslexic.pdf","answerBonus4Dyslexic.pdf",],
 
 ];
 
