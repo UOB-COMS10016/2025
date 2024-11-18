@@ -464,11 +464,14 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = First,
-                slidesFile' = Nothing, -- Just (BBSlide "Generators.pdf")
+                slidesFile' = Just (BBCode "MonadicParsingBluePeter.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            []
+            [ code "MonadicParsing.hs"
+            , code "MonadicParsingBluePeter.hs"
+            , sheet "Grogu.hs"
+            ]
         },
       --   slide "Generators.pdf"
       -- , code "questions.hs"
