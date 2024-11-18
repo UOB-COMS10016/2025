@@ -17,8 +17,8 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 9,
-      activityNum = 8,
+    { currentWeek = 10,
+      activityNum = 11,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
       headerOn = True,
@@ -433,7 +433,7 @@ functionalPage =
               ]
           }
       , Entry
-          { title = "Model-View-Update Pattern"
+          { title = "Property-Based Testing"
           , spec = Lecture
               { firstOrSecond = Second
               , slidesFile' = Nothing -- Just (External $ codeLink "Functor2023.hs")
@@ -447,9 +447,9 @@ functionalPage =
           }
 
       , Entry
-          { title = "IO"
+          { title = "Monads"
           , spec = Worksheet "sheet08.pdf"
-          , materials = sheets 8 ++ answers 8
+          , materials = [] -- sheets 8 ++ answers 8
           }
       , Entry
           { title = "Maps, Tries, Sets, and Perfect Trees"
@@ -458,9 +458,9 @@ functionalPage =
           }
       ]
 
-  --   -- Week 11
+    -- Week 11
     , [ Entry
-            { title = "TBD"
+            { title = "Model-View-Update Pattern"
             , spec =
               Lecture
                 { firstOrSecond = First
@@ -504,14 +504,14 @@ functionalPage =
       --     }
         , Entry
           { title = "Mock Test"
-          , spec = MockTest{ test = noteLink "COMS10016-Mock.pdf" }
+          , spec = MockTest{ test = noteLink "mock.pdf" }
           , materials = map note'
-              [ "COMS10016-Mock.pdf"
-              -- , "COMS10016-Mock-answers.pdf"
+              [ "mock.pdf"
+              -- , "mock-answers.pdf"
               ]
           }
       , Entry
-          { title = "Functor, Applicative, and Monad"
+          { title = "Minesweeper"
           , spec = Worksheet "sheet09.pdf"
           , materials = sheets 9 ++ answers 9
           }
