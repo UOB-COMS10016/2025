@@ -1,5 +1,5 @@
 const currentWeek   = 10;
-const activityNum   = 11;
+const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
 const headerOn      = 1;
