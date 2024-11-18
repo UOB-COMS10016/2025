@@ -418,8 +418,17 @@ functionalPage =
           , materials = sheetsBonus 2 ++ [note "Monoids notes" "Monoids.pdf"] ++ answersBonus 2
           }
       ]
-  --   -- Week 10
-    , [ Entry
+    -- Week 10
+
+    , [Entry
+      { title = "Mock Test"
+      , spec = MockTest{ test = noteLink "mock.pdf" }
+      , materials = map note'
+          [ "mock.pdf"
+          -- , "mock-answers.pdf"
+          ]
+      }
+    , Entry
           { title = "Monads II"
           , spec = Lecture
               { firstOrSecond = First
@@ -475,7 +484,7 @@ functionalPage =
                 ]
             }
          , Entry
-          { title = "Mock Test (in-class interactive quiz)"
+          { title = "Mock Test (interactive quiz)"
           , spec = Lecture
               { firstOrSecond = Second
               , slidesFile' = Nothing -- Just (External "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e")
@@ -502,14 +511,6 @@ functionalPage =
       --         , external "Bristol Quidditch Club" "https://www.bristolsu.org.uk/groups/bristol-quidditch-club-00bf"
       --         ]
       --     }
-        , Entry
-          { title = "Mock Test"
-          , spec = MockTest{ test = noteLink "mock.pdf" }
-          , materials = map note'
-              [ "mock.pdf"
-              -- , "mock-answers.pdf"
-              ]
-          }
       , Entry
           { title = "Minesweeper"
           , spec = Worksheet "sheet09.pdf"
