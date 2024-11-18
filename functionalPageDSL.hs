@@ -420,7 +420,7 @@ functionalPage =
       ]
   --   -- Week 10
     , [ Entry
-          { title = "Monads II"
+          { title = "Monadic Parsing"
           , spec = Lecture
               { firstOrSecond = First
               , slidesFile' = Nothing -- Just (BBSlide "Generators.pdf")
@@ -447,9 +447,9 @@ functionalPage =
           }
 
       , Entry
-          { title = "IO"
+          { title = "Monads"
           , spec = Worksheet "sheet08.pdf"
-          , materials = sheets 8 ++ answers 8
+          , materials = sheets 8 ++ [sheet "Grogu.hs"] -- ++ answers 8
           }
       , Entry
           { title = "Maps, Tries, Sets, and Perfect Trees"
