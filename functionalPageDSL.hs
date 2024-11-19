@@ -343,7 +343,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "Folds.hs"),
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
               },
           materials =
             [ code "Folds.hs",
@@ -440,7 +440,7 @@ functionalPage =
       Entry
         { title = "Functors & Data Transformations",
           spec = Worksheet "sheet07.pdf",
-          materials = sheets 7 -- ++ answers 7
+          materials = sheets 7 ++ answers 7
         },
       Entry -- we do want this to go up, Sam promised it last week
         { title = "Monoids",
@@ -493,7 +493,7 @@ functionalPage =
       Entry
         { title = "Monads",
           spec = Worksheet "sheet08.pdf",
-          materials = sheets 8 ++ [sheet "Grogu.hs"] -- ++ answers 8
+          materials = sheets 8 ++ [sheet "Grogu.hs"] ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
