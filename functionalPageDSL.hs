@@ -424,7 +424,7 @@ functionalPage =
                 lectureRecording = Nothing
               },
           materials =
-            []
+            [code "Monads (pt 1).hs"]
         },
       --   slide "IO-and-Gen.pdf"
       -- , code "ExampleIO.hs"
