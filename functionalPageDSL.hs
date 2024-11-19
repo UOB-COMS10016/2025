@@ -287,7 +287,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "HObp.hs"),
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
               },
           materials =
             [ code "HO.hs",
@@ -355,8 +355,8 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (BBSlide "week7.pdf")
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
+                slidesFile' = Just (BBCode "Functors.hs"), -- Just (BBSlide "week7.pdf")
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/9bf3ad694a34440baea79558a2d2e96f1d"
               },
           materials =
             [ code "Functors.hs"
@@ -408,7 +408,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBSlide "function-composition.pdf"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f967fc610d0b40c3b9693669721d6f6c1d"
               },
           materials =
             [ slide "function-composition.pdf",
@@ -420,8 +420,8 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (BBSlide "IO-and-Gen.pdf")
-                lectureRecording = Nothing
+                slidesFile' = Just (BBCode "Monads (pt 1).hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/348a3487267e48549c46920833872bb51d"
               },
           materials =
             [code "Monads (pt 1).hs"]
@@ -460,12 +460,12 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Monadic Parsing",
+        { title = "Monads II: Parsing",
           spec =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "MonadicParsingBluePeter.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/57b3afd4de3e40bf860d918184b452c71d"
               },
           materials =
             [ code "MonadicParsing.hs"
@@ -473,8 +473,6 @@ functionalPage =
             , sheet "Grogu.hs"
             ]
         },
-      --   slide "Generators.pdf"
-      -- , code "questions.hs"
 
       Entry
         { title = "Property-Based Testing",
@@ -487,8 +485,6 @@ functionalPage =
           materials =
             []
         },
-      --   code "Functor2023.hs"
-      -- , note' "kinds.png"
 
       Entry
         { title = "Monads",
