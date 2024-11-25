@@ -19,7 +19,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 10,
+    { currentWeek = 11,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -499,15 +499,17 @@ functionalPage =
     ],
     -- Week 11
     [ Entry
-        { title = "Model-View-Update Pattern",
+        { title = "Model-View-Update Pattern With Hangman",
           spec =
             Lecture
               { firstOrSecond = First,
-                slidesFile' = Nothing, -- Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
+                slidesFile' = Just (BBCode "HangmanBluePeter.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            []
+            [ code "Hangman.hs"
+            , code "HangmanBluePeter.hs"
+            ]
         },
       --   external "Functors and Applicatives slides + quiz"
       --            "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
@@ -545,7 +547,7 @@ functionalPage =
       Entry
         { title = "Minesweeper",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9 ++ answers 9
+          materials = sheets 9 -- ++ answers 9
         }
     ],
     -- Week 12/revision week
