@@ -1,4 +1,4 @@
-const currentWeek   = 10;
+const currentWeek   = 11;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -117,7 +117,7 @@ const activities = [
 ["0","","","","","0","0",],
 ["13","Mon 10:00-10:50<br/>Chem LT1","Model-View-Update Pattern","","","0","0",],
 ["13","Thurs 16:00-16:50<br/>Chem LT1","Mock Test (interactive quiz)","","","0","0",],
-["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Minesweeper","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","105","5",],
+["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Minesweeper","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","105","2",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
@@ -249,9 +249,6 @@ const files = [
 ["104","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answerBonus3Dyslexic.pdf","answerBonus3Dyslexic.pdf",],
 ["105","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","sheet09.pdf",],
 ["106","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09Dyslexic.pdf","sheet09Dyslexic.pdf",],
-["107","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09.pdf","answer09.pdf",],
-["108","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09Dyslexic.pdf","answer09Dyslexic.pdf",],
-["109","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/code09.hs","code09.hs",],
 
 ];
 
