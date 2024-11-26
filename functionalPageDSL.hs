@@ -287,7 +287,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "HObp.hs"),
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
               },
           materials =
             [ code "HO.hs",
@@ -343,7 +343,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "Folds.hs"),
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
               },
           materials =
             [ code "Folds.hs",
@@ -355,8 +355,8 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (BBSlide "week7.pdf")
-                lectureRecording = Nothing -- Just "https://mediasite.bris.ac.uk/Mediasite/Play/7fc5773adbe8447cb64102bf84d61ace1d"
+                slidesFile' = Just (BBCode "Functors.hs"), -- Just (BBSlide "week7.pdf")
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/9bf3ad694a34440baea79558a2d2e96f1d"
               },
           materials =
             [ code "Functors.hs"
@@ -408,7 +408,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBSlide "function-composition.pdf"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f967fc610d0b40c3b9693669721d6f6c1d"
               },
           materials =
             [ slide "function-composition.pdf",
@@ -420,8 +420,8 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (BBSlide "IO-and-Gen.pdf")
-                lectureRecording = Nothing
+                slidesFile' = Just (BBCode "Monads (pt 1).hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/348a3487267e48549c46920833872bb51d"
               },
           materials =
             [code "Monads (pt 1).hs"]
@@ -440,7 +440,7 @@ functionalPage =
       Entry
         { title = "Functors & Data Transformations",
           spec = Worksheet "sheet07.pdf",
-          materials = sheets 7 -- ++ answers 7
+          materials = sheets 7 ++ answers 7
         },
       Entry -- we do want this to go up, Sam promised it last week
         { title = "Monoids",
@@ -460,12 +460,12 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Monadic Parsing",
+        { title = "Monads II: Parsing",
           spec =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "MonadicParsingBluePeter.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/57b3afd4de3e40bf860d918184b452c71d"
               },
           materials =
             [ code "MonadicParsing.hs"
@@ -473,8 +473,6 @@ functionalPage =
             , sheet "Grogu.hs"
             ]
         },
-      --   slide "Generators.pdf"
-      -- , code "questions.hs"
 
       Entry
         { title = "Property-Based Testing",
@@ -485,15 +483,13 @@ functionalPage =
                 lectureRecording = Nothing
               },
           materials =
-            []
+            [code "Sort.hs", code "MiniPBT.hs"]
         },
-      --   code "Functor2023.hs"
-      -- , note' "kinds.png"
 
       Entry
         { title = "Monads",
           spec = Worksheet "sheet08.pdf",
-          materials = sheets 8 ++ [sheet "Grogu.hs"] -- ++ answers 8
+          materials = sheets 8 ++ [sheet "Grogu.hs"] ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
@@ -503,15 +499,17 @@ functionalPage =
     ],
     -- Week 11
     [ Entry
-        { title = "Model-View-Update Pattern",
+        { title = "Model-View-Update Pattern With Hangman",
           spec =
             Lecture
               { firstOrSecond = First,
-                slidesFile' = Nothing, -- Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
+                slidesFile' = Just (BBCode "HangmanBluePeter.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            []
+            [ code "Hangman.hs"
+            , code "HangmanBluePeter.hs"
+            ]
         },
       --   external "Functors and Applicatives slides + quiz"
       --            "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
@@ -549,7 +547,7 @@ functionalPage =
       Entry
         { title = "Minesweeper",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9
+          materials = sheets 9 -- ++ answers 9
         }
     ],
     -- Week 12/revision week
