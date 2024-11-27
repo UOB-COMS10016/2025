@@ -156,11 +156,11 @@ var activities = [
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Thu 28/11/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1", "LIBRARIES", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_23_Libraries_NA.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/3d51c01de15c41ad8a6492b99775bb981d",  "108", "3"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["8", "",                     "",                                 "", "", "0", "0"],
+["8", "<a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline'><b>SUBMIT via Gradebook (Top Menu on Blackboard Page)</b></a>",                     "",                                 "", "", "0", "0"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 29/11/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1", "CORRECTNESS", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2023_TB-1/content/imperative/COMS10016_25_OR.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/40295c2ae05c4abeb18672a60c925a7d1d",  "7", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["8", "<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline'><b>SUBMIT via Gradebook (Top Menu on Blackboard Page)</b></a>",                     "",                                 "", "", "0", "0"],
+["8", "",                     "",                                 "", "", "0", "0"],
 
 //////////////////////
 // Old 2021 Code Start
