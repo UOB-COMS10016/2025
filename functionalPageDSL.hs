@@ -456,7 +456,7 @@ functionalPage =
             map
               note'
               [ "mock.pdf"
-              -- , "mock-answers.pdf"
+              , "mock-answers.pdf"
               ]
         },
       Entry
