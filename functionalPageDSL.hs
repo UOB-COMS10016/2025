@@ -547,7 +547,7 @@ functionalPage =
       Entry
         { title = "Minesweeper",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9 -- ++ answers 9
+          materials = sheets 9 ++ answers 9
         }
     ],
     -- Week 12/revision week
