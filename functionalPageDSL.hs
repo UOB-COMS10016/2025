@@ -19,7 +19,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 11,
+    { currentWeek = 12,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -479,8 +479,8 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (External $ codeLink "Functor2023.hs")
-                lectureRecording = Nothing
+                slidesFile' = Just (BBCode "MiniPBT.hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/8bf6fcd43aa045229d3238b3027ef9801d"
               },
           materials =
             [code "Sort.hs", code "MiniPBT.hs"]
@@ -504,7 +504,7 @@ functionalPage =
             Lecture
               { firstOrSecond = First,
                 slidesFile' = Just (BBCode "HangmanBluePeter.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e9f9b0c5db954021968e882e3a4eff561d"
               },
           materials =
             [ code "Hangman.hs"
@@ -520,30 +520,16 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Nothing, -- Just (External "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e")
-                lectureRecording = Nothing
+                slidesFile' = Just (External $ noteLink "mock.pdf"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/03da7dc2ef6846caaaf77ebb1710aaf11d"
               },
           materials =
-            []
+            map
+              note'
+              [ "mock.pdf"
+              , "mock-answers.pdf"
+              ]
         },
-      --   external "Monads slides and quiz"
-      --            "https://quizizz.com/admin/presentation/61a1077bf56186001dc1301e"
-      -- , code "ApplicativeLive2023Updated.hs"
-
-      -- , Entry
-      --     { title = "Embedding"
-      --     , spec = Lectures
-      --         { slidesFile = External "https://docs.google.com/presentation/d/1_VBk9BFqwWpJZxg4sPm-TMPbHTUxos8sSBwyC8aC3KU"
-      --         , revisionVideos = ["https://mediasite.bris.ac.uk/Mediasite/Play/80396178d0094388982b5b4dde092e331d"]
-      --         }
-      --     , materials =
-      --         [ code "EmbeddingPartI.hs"
-      --         , external "Part II video" "https://web.microsoftstream.com/video/85b52444-fbe7-4f67-a7e2-b9083f2690a6"
-      --         , external "Folding Domain Specific Languages: Deep and Shallow" "https://dl.acm.org/doi/10.1145/2628136.2628138"
-      --         , external "CircuitFlow" "https://arxiv.org/abs/2111.12420"
-      --         , external "Bristol Quidditch Club" "https://www.bristolsu.org.uk/groups/bristol-quidditch-club-00bf"
-      --         ]
-      --     }
       Entry
         { title = "Minesweeper",
           spec = Worksheet "sheet09.pdf",
@@ -551,45 +537,45 @@ functionalPage =
         }
     ],
     -- Week 12/revision week
-    -- , [
-    --     Entry
-    --       { title = "Mock Test Walkthrough"
-    --       , spec =
-    --         Lecture
-    --           { firstOrSecond = First
-    --           , slidesFile' = Just (External $ noteLink "COMS10016-Mock.pdf")
-    --           , lectureRecording = Nothing
-    --           }
-    --       , materials =
-    --           [ note' "COMS10016-Mock.pdf"
-    --           , note' "COMS10016-Mock-answers.pdf"
-    --           , slide "Mock.hs"
-    --           , slide "SamMock.pdf"
-    --           ]
-    --       }
-    --   , Entry
-    --       { title = "Functor/Applicative recap and Quiz + Q&A"
-    --       , spec = Lecture
-    --           { firstOrSecond = Second
-    --           , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
-    --           , lectureRecording = Nothing
-    --           }
-    --       , materials =
-    --           [ external "Functors and Applicatives slides + quiz"
-    --                       "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
-    --           ]
-    --       }
-    --     Entry
-    --       { title = "Revision of previous sheets"
-    --       , spec = Worksheet "sheet09.pdf"
-    --       , materials = []
-    --       }
-    --   , Entry
-    --       { title = "Sheet of Death"
-    --       , spec = WorksheetBonus "sheetBonus4.pdf"
-    --       , materials = sheetsBonus 4 ++ answersBonus 4
-    --       }
-    --   ]
+    [
+      --   Entry
+      --     { title = "Mock Test Walkthrough"
+      --     , spec =
+      --       Lecture
+      --         { firstOrSecond = First
+      --         , slidesFile' = Just (External $ noteLink "COMS10016-Mock.pdf")
+      --         , lectureRecording = Nothing
+      --         }
+      --     , materials =
+      --         [ note' "COMS10016-Mock.pdf"
+      --         , note' "COMS10016-Mock-answers.pdf"
+      --         , slide "Mock.hs"
+      --         , slide "SamMock.pdf"
+      --         ]
+      --     }
+      -- , Entry
+      --     { title = "Functor/Applicative recap and Quiz + Q&A"
+      --     , spec = Lecture
+      --         { firstOrSecond = Second
+      --         , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
+      --         , lectureRecording = Nothing
+      --         }
+      --     , materials =
+      --         [ external "Functors and Applicatives slides + quiz"
+      --                     "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
+      --         ]
+      --     }
+        Entry
+          { title = "Revision of previous sheets"
+          , spec = Worksheet "sheet09.pdf"
+          , materials = []
+          }
+      -- , Entry
+      --     { title = "Sheet of Death"
+      --     , spec = WorksheetBonus "sheetBonus4.pdf"
+      --     , materials = sheetsBonus 4 ++ answersBonus 4
+      --     }
+      ],
 
     -- Spare couple weeks of lectures, to make sure site doesn't break
     [],

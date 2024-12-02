@@ -1,4 +1,4 @@
-const currentWeek   = 11;
+const currentWeek   = 12;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -28,8 +28,6 @@ var categories = [
 ["9","Formative Practical","#EEEEDD","1","","Materials",],
 ["10","Bonus Lecture","#D8CCFF","0","","",],
 ["11","Mock Test","#EEEEDD","0","","Materials",],
-["12","Lecture","#CCCFFF","0","","Materials",],
-["13","Lecture","#CCCFFF","0","","",],
 
 ];
 
@@ -108,16 +106,24 @@ const activities = [
 ["8","(optional)","Monoids","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheetBonus2.pdf","","91","5",],
 ["11","in your own time","Mock Test","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/notes/mock.pdf","","96","2",],
 ["2","Mon 10:00-10:50<br/>Chem LT1","Monads II: Parsing","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/MonadicParsingBluePeter.hs","https://mediasite.bris.ac.uk/Mediasite/Play/57b3afd4de3e40bf860d918184b452c71d","98","3",],
-["12","Thurs 16:00-16:50<br/>Chem LT1","Property-Based Testing","","","101","2",],
+["2","Thurs 16:00-16:50<br/>Chem LT1","Property-Based Testing","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/MiniPBT.hs","https://mediasite.bris.ac.uk/Mediasite/Play/8bf6fcd43aa045229d3238b3027ef9801d","101","2",],
 ["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Monads","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet08.pdf","","103","6",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["8","(optional)","Maps, Tries, Sets, and Perfect Trees","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheetBonus3.pdf","","109","5",],
 ["0","","","","","0","0",],
-["12","Mon 10:00-10:50<br/>Chem LT1","Model-View-Update Pattern With Hangman","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/HangmanBluePeter.hs","","114","2",],
-["13","Thurs 16:00-16:50<br/>Chem LT1","Mock Test (interactive quiz)","","","0","0",],
-["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Minesweeper","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","116","2",],
+["2","Mon 10:00-10:50<br/>Chem LT1","Model-View-Update Pattern With Hangman","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/HangmanBluePeter.hs","https://mediasite.bris.ac.uk/Mediasite/Play/e9f9b0c5db954021968e882e3a4eff561d","114","2",],
+["2","Thurs 16:00-16:50<br/>Chem LT1","Mock Test (interactive quiz)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/notes/mock.pdf","https://mediasite.bris.ac.uk/Mediasite/Play/03da7dc2ef6846caaaf77ebb1710aaf11d","116","2",],
+["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Minesweeper","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","118","5",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["0","","","","","0","0",],
+["4","Mon 15:00-18:00<br/>MVB2.11/1.15","Revision of previous sheets","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
@@ -258,8 +264,13 @@ const files = [
 ["113","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answerBonus3Dyslexic.pdf","answerBonus3Dyslexic.pdf",],
 ["114","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/Hangman.hs","Hangman.hs",],
 ["115","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/code/HangmanBluePeter.hs","HangmanBluePeter.hs",],
-["116","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","sheet09.pdf",],
-["117","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09Dyslexic.pdf","sheet09Dyslexic.pdf",],
+["116","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/notes/mock.pdf","mock.pdf",],
+["117","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/notes/mock-answers.pdf","mock-answers.pdf",],
+["118","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09.pdf","sheet09.pdf",],
+["119","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/sheet09Dyslexic.pdf","sheet09Dyslexic.pdf",],
+["120","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09.pdf","answer09.pdf",],
+["121","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/answer09Dyslexic.pdf","answer09Dyslexic.pdf",],
+["122","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/content/functional/sheets/code09.hs","code09.hs",],
 
 ];
 
