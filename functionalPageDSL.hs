@@ -972,7 +972,11 @@ answersBonus i =
 -- Link construction
 
 bbRootDir :: URL
-bbRootDir = "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2024_TB-1/"
+bbRootDir = "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/"
+
+websiteRootDir :: URL
+websiteRootDir = "https://uob-coms10016.github.io/2025/"
+
 
 comingSoonPage :: URL
 comingSoonPage = "" -- funcRootDir ++ "coming-soon.html"
@@ -993,7 +997,10 @@ slideLink :: String -> URL
 slideLink = dir "slides"
 
 maybeSlidesPathToURL :: Maybe SlidesPath -> URL
-maybeSlidesPathToURL = maybe comingSoonPage slidesPathToUrl
+maybeSlidesPathToURL = maybe notFoundPage slidesPathToUrl
+
+notFoundPage :: URL
+notFoundPage = "404.html"
 
 slidesPathToUrl :: SlidesPath -> URL
 slidesPathToUrl slidesFile =
