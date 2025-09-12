@@ -1,4 +1,4 @@
-- Webpage: https://uob-coms10016.github.io/2025/start.html
+- Webpage: https://uob-coms10016.github.io/2025/
 - Compile functional DSL to functional.js file:
   - bash, sh: `runghc functionalPageDSL.hs > functional.js`
   - nushell: `runghc functionalPageDSL.hs out> functional.js`
