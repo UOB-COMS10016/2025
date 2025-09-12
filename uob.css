@@ -1585,7 +1585,7 @@ color: #beb9a6;
 background: url(/media-library/protected/images/intranet-icon-ie.gif) no-repeat 95% center;
 }
 
-.navgroup a[href^="https://www.bris.ac.uk"]:hover:before, 
+/* .navgroup a[href^="https://www.bris.ac.uk"]:hover:before, 
 .navgroup a[href^="https://www.bristol.ac.uk"]:hover:before {
 content: "University access only"; 
 right: -11.5em;
@@ -1608,7 +1608,7 @@ filter: alpha(opacity=90);
 opacity: 0.9; 
 padding: 0.25em 0.5em;
 z-index: 1000;
-}
+} */
 
 
 .navgroup a[href^="https://www.bris.ac.uk"]:hover:after, 
@@ -2562,7 +2562,7 @@ top: 0.7em!important;
 
 
 /* adding lock icon for intranet links in body text. After is for lock icon, before is for message */
-a[href^="https://www.bris.ac.uk"], a[href^="https://www.bristol.ac.uk"]  {
+/* a[href^="https://www.bris.ac.uk"], a[href^="https://www.bristol.ac.uk"]  {
 position: relative;
 }
 
@@ -2579,11 +2579,11 @@ position: static;
 .ie7 a[href^="https://www.bristol.ac.uk"]  {
 background: url(/media-library/protected/images/intranet-icon-ie.gif) no-repeat right center;
 padding-right: 15px;
-}
+} */
 
 
 
-a[href^="https://www.bris.ac.uk"]:hover:before, a[href^="https://www.bristol.ac.uk"]:hover:before {
+/* a[href^="https://www.bris.ac.uk"]:hover:before, a[href^="https://www.bristol.ac.uk"]:hover:before {
 content: "University access only"; 
 right: -10em;
 top: -2em;
@@ -2605,7 +2605,7 @@ filter: alpha(opacity=90);
 opacity: 0.9; 
 padding: 0.25em 0.5em;
 z-index: 200;
-}
+} */
 
 a[href^="https://www.bris.ac.uk"].btn:hover:before, a[href^="https://www.bristol.ac.uk"].btn:hover:before  {
 right: -10em;
