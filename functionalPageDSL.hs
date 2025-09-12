@@ -52,24 +52,23 @@ functionalPage =
           spec =
             Lecture
               { firstOrSecond = First,
-                slidesFile' = Just (External "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/a59fa0f036804fd19768d9b5d6adfe361d"
+                slidesFile' = Just (External "https://docs.google.com/presentation/d/1MKHf1CZkwJsLV3uAFo5z_BxJaFF6kmA1Vuc6TKloAjM/edit?usp=sharing"),
+                lectureRecording = Nothing
               },
           materials =
-            [ external "Welcome to Functional Programming Slides" "https://docs.google.com/presentation/d/1wkVzt7ibiRMIwxB10C4qETbi9vqPPSOK_JB_0N-Sjgc/edit?usp=sharing"
+            [ external "Welcome to Functional Programming Slides" "https://docs.google.com/presentation/d/1MKHf1CZkwJsLV3uAFo5z_BxJaFF6kmA1Vuc6TKloAjM/edit?usp=sharing"
             ]
         },
       Entry
-        { title = "Haskell Syntax",
+        { title = "Haskell Literacy: Expressions and Eval",
           spec =
             Lecture
               { firstOrSecond = Second,
-                slidesFile' = Just (BBCode "Lecture1.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/c515bd32fe8341e6b7927be4739cdf821d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Lecture1.hs"
-            ]
+            [ ]
         },
       Entry
         { title = "GET YOUR PC READY",
