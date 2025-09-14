@@ -2,7 +2,7 @@
 var unitName      = "";
 var unitCode      = "";
 var startWeekNum  = 1; // start week number [usual start is week 1 or 13]
-var totalWeeks    = 12; // total teaching weeks for unit [usually 12]
+var totalWeeks    = 1; // total teaching weeks for unit [usually 12]
 
 //PAGE TITLE CONTENT (IF ANY)
 var topicsNum = 10; // num of topics to render in title, that is 1 plus max index, -1 for no topics
@@ -20,3 +20,4 @@ var topics = [
 [  "9", "1", "CATALOGUE",       "https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=25%2F26&unitCode=COMS10016"],
 // [  "10","1", "FP MINUTE SHEET", "404.html"],
 ];
+
