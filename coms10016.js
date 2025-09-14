@@ -10,7 +10,7 @@ var topics = [
 [  "0", "0", "OVERVIEW",        "<strong>Unit Overview.</strong> This first year introductory unit is worth 20 credit points and assumes no prior exposure to programming. We are using this unit website, in-person lectures, in-person labs, content recordings, and extra exercises for teaching. The unit runs in two distinct streams each focussing on one paradigm. For imperative programming, the aim is to introduce the notion of state and sequential operations. Important principles include recursion and iteration, assignment, pointers, and an understanding of the stack and heap. For functional programming, the aim is to introduce expressions, functions, and types. Important principles include datatypes, evaluation, higher-order functions, composition, and effects. C and Haskell serve as the example languages. Formative and summative individual courseworks are supported by in-person labs. Note that self-study beyond lectures and labs is usually required to recap and compound the content taught. A typical week of the unit consists of up to 4 hours of lectures, up to 6 hours of programming labs with lecturers and TAs, and approximately 5h self-study."],
 [  "1", "0", "FEEDBACK",        "<strong>Feedback &amp; Support.</strong> Please actively ask us regarding all questions during our weekly labs in person. You can also find us after lectures. Use the weekly labs sessions as your primary points of contact to get regular help and feedback from TAs and staff. Whenever you need in-person programming help in the lab, please raise your hand."],
 [  "2", "0", "STAFF",           "<strong>Staff &amp; Lab Team.</strong> <a href='https://tiloburghardt.github.io'>Tilo</a>, <a href='https://mengwangoxf.github.io'>Meng</a>, <a href='http://people.cs.bris.ac.uk/~oray'>Oliver</a>, <a href='mailto:jess.foster@bristol.ac.uk'>Jess</a>, and <a href='mailto:samantha.frohlich@bristol.ac.uk'>Sam</a> welcome you to the unit. For questions, best see us in the labs or get hold of us after lectures. Before you email lecturers please make sure you have asked your question in the lab. We always try to answer quickly, but note that email turn around may take up to three working days."],
-[  "3", "1", "TEAMS",           "404.html"],
+[  "3", "1", "TEAMS",           "https://teams.microsoft.com/l/team/19%3AkN2Xq2FwsioDxRo-rr2xXOnAaCSYeZENATOQk1IbcKk1%40thread.tacv2/conversations?groupId=1b14c71b-bb90-41d9-ad07-1979e2283273&tenantId=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b"],
 [  "4", "1", "BLACKBOARD",      "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline"],
 [  "5", "1", "C STYLE GUIDE",   "http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_CStyle.pdf"],
 [  "6", "1", "MARKING GUIDE",   "http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_Marking.pdf"],
@@ -20,6 +20,7 @@ var topics = [
 [  "9", "1", "CATALOGUE",       "https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=25%2F26&unitCode=COMS10016"],
 // [  "10","1", "FP MINUTE SHEET", "404.html"],
 ];
+
 
 
 
