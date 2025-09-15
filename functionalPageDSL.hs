@@ -68,7 +68,8 @@ functionalPage =
                 lectureRecording = Nothing
               },
           materials =
-            [ ]
+            [ minSheet "https://forms.office.com/e/QZ62B9rgG8"
+            ]
         },
       Entry
         { title = "GET YOUR PC READY",
@@ -78,15 +79,15 @@ functionalPage =
     ],
     -- Week 2
     [ Entry
-        { title = "Recursion",
+        { title = "Branching and Recursion",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "Recursion.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/90e8085b9e344a14b9771946910913da1d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Recursion.hs"
+            [ minSheet "https://forms.office.com/e/2WYXgw55gE"
             ]
         },
       Entry
@@ -94,30 +95,20 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "BasicTypes.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fe1958cd22b54f59bed3004871aaff561d"
+                slidesFile' = Just (BBLectureCode "Types.hs"),
+                lectureRecording = Nothing
               },
           materials =
-            [ code "BasicTypes.hs"
+            [ minSheet "https://forms.office.com/e/BpZuXP2fVc"
+            , lectureCode "Types.hs"
+            , lectureCode "TypesTemplate.hs"
+            -- , lectureCode "TypesBP.hs"
             ]
         },
       Entry
-        { title = "GHCi and Functions",
+        { title = "Basic Programming",
           spec = Worksheet "sheet01.pdf",
           materials = sheets 1 ++ answers 1
-        },
-      Entry
-        { title = "",
-          spec = NotesExtra,
-          materials =
-            map
-              (uncurry note)
-              [ ("Types", "Types.pdf"),
-                ("Plain old Datatypes", "HaskellPoDs.pdf"),
-                ("Tuples", "Tuples.pdf"),
-                ("Branching", "Branching.pdf"),
-                ("Guards", "Guards.pdf")
-              ]
         }
     ],
     -- Week 3
@@ -130,85 +121,83 @@ functionalPage =
             ]
         },
       Entry
-        { title = "Pattern matching and Lists",
+        { title = "Lists",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "PatternsLists.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/4a3f3721e8ec4fc18af181236c7378f01d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "PatternsLists.hs"
+            [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
             ]
         },
       Entry
-        { title = "Polymorphism and Typeclasses",
+        { title = "ADTs, Polymorphism and Typeclasses",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing, -- Just (BBSlide "card-game.pdf")
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fb4756e80010403aa137367145fe63a41d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ -- slide "card-game.pdf"
-              code "Polymorphism.hs"
+            [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
+            , lectureCode "ADTs.hs"
+            , lectureCode "ADTsTemplate.hs"
+            -- , lectureCode "ADTsBP.hs"
+            , lectureCode "Polymorphism.hs"
+            , lectureCode "PolymorphismTemplate.hs"
+            -- , lectureCode "PolymorphismBP.hs"
+            , lectureCode "Typeclasses.hs"
+            , lectureCode "TypeclassesTemplate.hs"
+            -- , lectureCode "TypeclassesBP.hs"
             ]
         },
-      -- , Entry
-      --     { title = ""
-      --     , spec = NotesExtra
-      --     , materials = map (uncurry note)
-      --         [
-      --           ("Data Constructors", "DataConstructors.pdf")
-      --         -- , ("Function Composition", "FunctionComposition.pdf")
-      --         -- , ("Laziness", "Laziness.pdf")
-      --         , ("Type Classes", "TypeClasses.pdf")
-      --         , ("Recipe for writing functions", "FunctionRecipe.pdf")
-      --         ]
-      --     }
       Entry
-        { title = "Lists and Laziness",
+        { title = "Lists",
           spec = Worksheet "sheet02.pdf",
           materials = sheets 2 ++ answers 2
         }
     ],
     -- Week 4
     [ Entry
-        { title = "Algebraic Datatypes (ADTs)",
+        { title = "ADTs, Polymorphism and Typeclasses cont.",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "ADTs.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/da991129cc734ceeb958ce622d34a2d31d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "ADTs.hs"
+            [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
+            , lectureCode "ADTs.hs"
+            , lectureCode "ADTsTemplate.hs"
+            -- , lectureCode "ADTsBP.hs"
+            , lectureCode "Polymorphism.hs"
+            , lectureCode "PolymorphismTemplate.hs"
+            -- , lectureCode "PolymorphismBP.hs"
+            , lectureCode "Typeclasses.hs"
+            , lectureCode "TypeclassesTemplate.hs"
+            -- , lectureCode "TypeclassesBP.hs"
             ]
         },
       Entry
-        { title = "'Purity' and IO",
+        { title = "Higher-Order Functions",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "PurityAndIOBluePeter.lhs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/c79199545fe943e29a048476ff4835981d"
+                slidesFile' = Just (BBLectureCode "HO.hs"),
+                lectureRecording = Nothing
               },
           materials =
-            [ code "PurityAndIO.hs",
-              code "PurityAndIOBluePeter.lhs"
+            [ minSheet "https://forms.office.com/e/szsFDhzxzC"
+            , lectureCode "HO.hs"
+            , lectureCode "HOtemplate.hs"
+            -- , lectureCode "HObp.hs"
             ]
         },
       Entry
-        { title = "",
-          spec = NotesExtra,
-          materials =
-            map
-              (uncurry note)
-              [ ("Pattern Matching", "PatternMatching.pdf")
-              ]
-        },
-      Entry
-        { title = "ADTs and Pattern Matching",
+        { title = "ADTs, Polymorphism and Typeclasses",
           spec = Worksheet "sheet03.pdf",
           materials = sheets 3 ++ answers 3
         },
@@ -217,8 +206,8 @@ functionalPage =
           spec =
             Coursework
               { instructions = "CW1/CW1-Instrs.pdf",
-                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline",
-                deadline = "12:00 Tues 29/10/24"
+                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
+                deadline = "12:00 Tues 04/11/25"
               },
           materials =
             map
@@ -231,43 +220,34 @@ functionalPage =
     ],
     -- Week 5
     [ Entry
-        { title = "More IO (Katamari Haskacy)",
+        { title = "Higher-Order Functions cont. + Laziness Intro",
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Just (BBCode "KatamariHaskacyBluePeter.lhs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/ac580ab8f2024a64889b631b0882bd2d1d"
+                slidesFile' = Just (BBLectureCode "HO.hs"),
+                lectureRecording = Nothing
               },
           materials =
-            [ code "KatamariHaskacy.hs",
-              code "KatamariHaskacyBluePeter.lhs"
+            [ minSheet "https://forms.office.com/e/5LyvfU8eUu"
+            , lectureCode "HO.hs"
+            , lectureCode "HOtemplate.hs"
+            -- , lectureCode "HObp.hs"
             ]
         },
       Entry
-        { title = "Higher-order Functions",
+        { title = "Folds",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "HObp.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/73924e27273242cba966e260978f13ff1d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "HO.hs",
-              code "HObp.hs"
+            [ minSheet "https://forms.office.com/e/0TFiDaNH9J"
             ]
         },
       Entry
-        { title = "",
-          spec = NotesExtra,
-          materials =
-            map
-              (uncurry note)
-              [ ("Lists", "Lists.pdf"),
-                ("Maybe", "Maybe.pdf")
-              ]
-        },
-      Entry
-        { title = "Programming with IO",
+        { title = "HO Programming and Laziness",
           spec = Worksheet "sheet04.pdf",
           materials = sheets 4 ++ answers 4
         },
@@ -281,29 +261,30 @@ functionalPage =
     [],
     -- Week 7
     [ Entry
-        { title = "More Higher-order Functions",
+        { title = "Folds cont.",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "HObp.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "HO.hs",
-              code "HObp.hs"
+            [ minSheet "https://forms.office.com/e/RDDRdr688j"
             ]
         },
       Entry
-        { title = "Folds Part 1",
+        { title = "Functor",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "Folds.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/d08595d86d7040baa4e7999bdd5f90301d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Folds.hs",
-              code "FoldsBP.hs"
+            [ minSheet "https://forms.office.com/e/vKdE4rXTkw"
+            , lectureCode "Functor.hs"
+            , lectureCode "FunctorTemplate.hs"
+            -- , lectureCode "FunctorBP.hs"
             ]
         },
       Entry
@@ -312,13 +293,11 @@ functionalPage =
           materials =
             map
               (uncurry note)
-              [ ("HO Functions", "HigherOrderFunctions.pdf"),
-                ("Map", "Map.pdf"),
-                ("Prelude Functions Cheatsheet", "PreludeFunctionsCheatsheet.pdf")
+              [ ("Prelude Functions Cheatsheet", "PreludeFunctionsCheatsheet.pdf")
               ]
         },
       Entry
-        { title = "HO Functions (filter, map, and more)",
+        { title = "Folding",
           spec = Worksheet "sheet05.pdf",
           materials = sheets 5 ++ answers 5
         },
@@ -337,28 +316,27 @@ functionalPage =
     ],
     -- Week 8
     [ Entry
-        { title = "Folds Part 2",
+        { title = "Parsers",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "Folds.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Folds.hs",
-              code "FoldsBP.hs"
+            [ minSheet "https://forms.office.com/e/d7Sv7F7kPF"
             ]
         },
       Entry
-        { title = "Functors",
+        { title = "Applicatives",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "Functors.hs"), -- Just (BBSlide "week7.pdf")
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/9bf3ad694a34440baea79558a2d2e96f1d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Functors.hs"
+            [ minSheet "https://forms.office.com/e/iacb4N8pbh"
             ]
         },
       Entry
@@ -373,13 +351,12 @@ functionalPage =
         { title = "",
           spec = NotesExtra,
           materials =
-            [ note "Folds" "Folds.pdf",
-              note "How to Design \"Co\"-Programs" "copro.pdf",
+            [ note "How to Design \"Co\"-Programs" "copro.pdf",
               external "Design Patterns as Higher-Order Datatype-Generic Programs" "https://www.cs.ox.ac.uk/jeremy.gibbons/publications/hodgp-journal.pdf"
             ]
         },
       Entry
-        { title = "Folds",
+        { title = "Functors and Parsers",
           spec = Worksheet "sheet06.pdf",
           materials = sheets 6 ++ answers 6
         },
@@ -388,8 +365,8 @@ functionalPage =
           spec =
             Coursework
               { instructions = "CW2/CW2-Instrs.pdf",
-                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline",
-                deadline = "12:00 Thurs 21/11/24<br/>(submit at least 1 hour early)"
+                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
+                deadline = "12:00 Thurs 27/11/25<br/>(submit at least 1 hour early)"
               },
           materials =
             map
@@ -402,42 +379,33 @@ functionalPage =
     ],
     -- Week 9
     [ Entry
-        { title = "Programs as Data Transformations",
+        { title = "IO",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBSlide "function-composition.pdf"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f967fc610d0b40c3b9693669721d6f6c1d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ slide "function-composition.pdf",
-              code "DataTransformations.hs"
+            [ minSheet "https://forms.office.com/e/9Hd3RVV27R"
             ]
         },
       Entry
-        { title = "Monads I",
+        { title = "Monads",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "Monads (pt 1).hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/348a3487267e48549c46920833872bb51d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [code "Monads (pt 1).hs"]
+            [ minSheet "https://forms.office.com/e/pkByWDsxVn"
+            ]
         },
       --   slide "IO-and-Gen.pdf"
       -- , code "ExampleIO.hs"
-
       Entry
-        { title = "",
-          spec = NotesExtra,
-          materials =
-            map
-              (uncurry note)
-              [("Intro to IO", "Intro-to-IO.pdf")]
-        },
-      Entry
-        { title = "Functors & Data Transformations",
+        { title = "Applicatives and IO",
           spec = Worksheet "sheet07.pdf",
           materials = sheets 7 ++ answers 7
         },
@@ -459,30 +427,29 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Monads II: Parsing",
+        { title = "Property-based Testing",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBCode "MonadicParsingBluePeter.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/57b3afd4de3e40bf860d918184b452c71d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "MonadicParsing.hs"
-            , code "MonadicParsingBluePeter.hs"
-            , sheet "Grogu.hs"
+            [ minSheet "https://forms.office.com/e/Q8rH5TSGCa"
             ]
         },
 
       Entry
-        { title = "Property-Based Testing",
+        { title = "Programs as Data Transformations",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBCode "MiniPBT.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/8bf6fcd43aa045229d3238b3027ef9801d"
+                slidesFile' = Just (BBSlide "function-composition.pdf"),
+                lectureRecording = Nothing
               },
           materials =
-            [code "Sort.hs", code "MiniPBT.hs"]
+            [ minSheet "https://forms.office.com/e/fJHcHfLUsz"
+            ]
         },
 
       Entry
@@ -498,16 +465,15 @@ functionalPage =
     ],
     -- Week 11
     [ Entry
-        { title = "Model-View-Update Pattern With Hangman",
+        { title = "Model-View-Update Pattern",
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Just (BBCode "HangmanBluePeter.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e9f9b0c5db954021968e882e3a4eff561d"
+                slidesFile' = Nothing,
+                lectureRecording = Nothing
               },
           materials =
-            [ code "Hangman.hs"
-            , code "HangmanBluePeter.hs"
+            [ minSheet "https://forms.office.com/e/jscNkH3f5Z"
             ]
         },
       --   external "Functors and Applicatives slides + quiz"
@@ -520,17 +486,17 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (External $ noteLink "mock.pdf"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/03da7dc2ef6846caaaf77ebb1710aaf11d"
+                lectureRecording = Nothing
               },
           materials =
             map
               note'
               [ "mock.pdf"
-              , "mock-answers.pdf"
+              --, "mock-answers.pdf"
               ]
         },
       Entry
-        { title = "Minesweeper",
+        { title = "Data Transformations",
           spec = Worksheet "sheet09.pdf",
           materials = sheets 9 ++ answers 9
         }
@@ -642,18 +608,18 @@ entryToCategory (Entry _ details materials) = case details of
   WorksheetBonus {} ->
     MkCat
       { title = "Bonus Worksheet",
-        colour = "#FCC981",
+        colour = "#EEEEDD",
         counter = True,
         slidesLinkName = "",
         materialLinkName = "Materials"
       }
   NotesExtra ->
     MkCat
-      { title = "Extra Notes,<br> Examples,<br> &amp; Explanations",
+      { title = "Bonus Material",
         colour = "#94e5bf",
         counter = False,
         slidesLinkName = "",
-        materialLinkName = "Notes"
+        materialLinkName = "Material"
       }
   History ->
     MkCat
@@ -666,7 +632,7 @@ entryToCategory (Entry _ details materials) = case details of
   Coursework {submissionLink} ->
     MkCat
       { title = "Coursework",
-        colour = "#EEEEDD",
+        colour = "#FCC981",
         counter = False, -- Doesn't seem to be working for some reason
         slidesLinkName =
           if not (null submissionLink)
@@ -739,7 +705,7 @@ entryToActivity catDict entry@(Entry {title, spec, materials}) =
           Second -> "Tues 16:00-16:50<br/>CHEM BLDG LT1"
           Other s -> s
         LectureExtra {} -> "(optional)"
-        NotesExtra -> "in your own time"
+        NotesExtra -> "(optional)"
         Coursework {..} -> "Deadline: " ++ deadline
         FormativePractical {} -> ""
         MockTest {} -> "in your own time"
@@ -832,6 +798,7 @@ data Slot = First | Second | Other String deriving (Show, Eq, Ord)
 data SlidesPath
   = BBSlide FilePath
   | BBCode FilePath
+  | BBLectureCode FilePath
   | External URL
   deriving (Show, Eq)
 
@@ -925,6 +892,9 @@ note' file = MkMaterial file (noteLink file)
 code :: String -> Material
 code file = MkMaterial file (codeLink file)
 
+lectureCode :: String -> Material
+lectureCode file = MkMaterial file (lectureCodeLink file)
+
 slide :: String -> Material
 slide file = MkMaterial file (slideLink file)
 
@@ -933,6 +903,9 @@ coursework cwDir file = MkMaterial file (courseworkLink (cwDir ++ "/" ++ file))
 
 external :: String -> URL -> Material
 external = MkMaterial
+
+minSheet :: URL -> Material
+minSheet = MkMaterial "Minute Sheet"
 
 sheet :: String -> Material
 sheet file = MkMaterial file (sheetLink file)
@@ -1008,10 +981,14 @@ slidesPathToUrl slidesFile =
   case slidesFile of
     BBSlide path -> slideLink path
     BBCode path -> codeLink path
+    BBLectureCode path -> lectureCodeLink path
     External url -> url
 
 codeLink :: String -> URL
 codeLink = dir "code"
+
+lectureCodeLink :: String -> URL
+lectureCodeLink = dir "lectureCode"
 
 courseworkLink :: String -> URL
 courseworkLink = dir "coursework"
