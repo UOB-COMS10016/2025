@@ -19,7 +19,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 1,
+    { currentWeek = 11,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -51,7 +51,7 @@ functionalPage =
         { title = "Welcome & Introduction",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (External "https://docs.google.com/presentation/d/1MKHf1CZkwJsLV3uAFo5z_BxJaFF6kmA1Vuc6TKloAjM/edit?usp=sharing"),
                 lectureRecording = Nothing
               },
@@ -63,7 +63,7 @@ functionalPage =
         { title = "Haskell Literacy: Expressions and Eval",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Nothing,
                 lectureRecording = Nothing
               },
@@ -81,7 +81,7 @@ functionalPage =
         { title = "Recursion",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "Recursion.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/90e8085b9e344a14b9771946910913da1d"
               },
@@ -93,7 +93,7 @@ functionalPage =
         { title = "Types",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "BasicTypes.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fe1958cd22b54f59bed3004871aaff561d"
               },
@@ -133,7 +133,7 @@ functionalPage =
         { title = "Pattern matching and Lists",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "PatternsLists.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/4a3f3721e8ec4fc18af181236c7378f01d"
               },
@@ -145,7 +145,7 @@ functionalPage =
         { title = "Polymorphism and Typeclasses",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Nothing, -- Just (BBSlide "card-game.pdf")
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/fb4756e80010403aa137367145fe63a41d"
               },
@@ -177,7 +177,7 @@ functionalPage =
         { title = "Algebraic Datatypes (ADTs)",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "ADTs.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/da991129cc734ceeb958ce622d34a2d31d"
               },
@@ -189,7 +189,7 @@ functionalPage =
         { title = "'Purity' and IO",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "PurityAndIOBluePeter.lhs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/c79199545fe943e29a048476ff4835981d"
               },
@@ -234,7 +234,7 @@ functionalPage =
         { title = "More IO (Katamari Haskacy)",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
                 slidesFile' = Just (BBCode "KatamariHaskacyBluePeter.lhs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/ac580ab8f2024a64889b631b0882bd2d1d"
               },
@@ -247,7 +247,7 @@ functionalPage =
         { title = "Higher-order Functions",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "HObp.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/73924e27273242cba966e260978f13ff1d"
               },
@@ -284,7 +284,7 @@ functionalPage =
         { title = "More Higher-order Functions",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "HObp.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f92529a3dd8a46cf8697f3b494a9dbea1d"
               },
@@ -297,7 +297,7 @@ functionalPage =
         { title = "Folds Part 1",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "Folds.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/d08595d86d7040baa4e7999bdd5f90301d"
               },
@@ -340,7 +340,7 @@ functionalPage =
         { title = "Folds Part 2",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "Folds.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1900f93f7b64c8d9622959ec48786531d"
               },
@@ -353,7 +353,7 @@ functionalPage =
         { title = "Functors",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "Functors.hs"), -- Just (BBSlide "week7.pdf")
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/9bf3ad694a34440baea79558a2d2e96f1d"
               },
@@ -405,7 +405,7 @@ functionalPage =
         { title = "Programs as Data Transformations",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBSlide "function-composition.pdf"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f967fc610d0b40c3b9693669721d6f6c1d"
               },
@@ -418,7 +418,7 @@ functionalPage =
         { title = "Monads I",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "Monads (pt 1).hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/348a3487267e48549c46920833872bb51d"
               },
@@ -462,7 +462,7 @@ functionalPage =
         { title = "Monads II: Parsing",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = First,
                 slidesFile' = Just (BBCode "MonadicParsingBluePeter.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/57b3afd4de3e40bf860d918184b452c71d"
               },
@@ -477,7 +477,7 @@ functionalPage =
         { title = "Property-Based Testing",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (BBCode "MiniPBT.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/8bf6fcd43aa045229d3238b3027ef9801d"
               },
@@ -501,7 +501,7 @@ functionalPage =
         { title = "Model-View-Update Pattern With Hangman",
           spec =
             Lecture
-              { firstOrSecond = First,
+              { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
                 slidesFile' = Just (BBCode "HangmanBluePeter.hs"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e9f9b0c5db954021968e882e3a4eff561d"
               },
@@ -518,7 +518,7 @@ functionalPage =
         { title = "Mock Test (interactive quiz)",
           spec =
             Lecture
-              { firstOrSecond = Second,
+              { slot = Second,
                 slidesFile' = Just (External $ noteLink "mock.pdf"),
                 lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/03da7dc2ef6846caaaf77ebb1710aaf11d"
               },
@@ -541,7 +541,7 @@ functionalPage =
       --     { title = "Mock Test Walkthrough"
       --     , spec =
       --       Lecture
-      --         { firstOrSecond = First
+      --         { slot = First
       --         , slidesFile' = Just (External $ noteLink "COMS10016-Mock.pdf")
       --         , lectureRecording = Nothing
       --         }
@@ -555,7 +555,7 @@ functionalPage =
       -- , Entry
       --     { title = "Functor/Applicative recap and Quiz + Q&A"
       --     , spec = Lecture
-      --         { firstOrSecond = Second
+      --         { slot = Second
       --         , slidesFile' = Just (External "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa")
       --         , lectureRecording = Nothing
       --         }
@@ -733,10 +733,11 @@ entryToActivity catDict entry@(Entry {title, spec, materials}) =
         SetupLab {} -> "Mon 16/09/24<br/>15:00-18:00<br/>Wed 18/09/24<br/>10:00-13:00<br/>MVB2.11/1.15"
         Worksheet {} -> "Mon 15:00-18:00<br/>MVB2.11/1.15"
         WorksheetBonus {} -> "(optional)"
-        Lectures {} -> "Mon 10:00-10:50<br/>Thurs 16:00-16:50<br/>Chem LT1"
-        Lecture {firstOrSecond} -> case firstOrSecond of
-          First -> "Mon 10:00-10:50<br/>Chem LT1"
-          Second -> "Thurs 16:00-16:50<br/>Chem LT1"
+        Lectures {} -> "Mon 10:00-10:50<br/>Tues 16:00-16:50"
+        Lecture {slot} -> case slot of
+          First -> "Mon 10:00-10:50<br/>BIOMEDICAL BLDG E29"
+          Second -> "Tues 16:00-16:50<br/>CHEM BLDG LT1"
+          Other s -> s
         LectureExtra {} -> "(optional)"
         NotesExtra -> "in your own time"
         Coursework {..} -> "Deadline: " ++ deadline
@@ -806,7 +807,7 @@ data EntrySpec
         revisionVideos :: [URL]
       }
   | Lecture
-      { firstOrSecond :: FirstOrSecond,
+      { slot :: Slot,
         slidesFile' :: Maybe SlidesPath,
         lectureRecording :: Maybe URL
       }
@@ -826,7 +827,7 @@ data EntrySpec
   | Blank
   deriving (Show, Eq)
 
-data FirstOrSecond = First | Second deriving (Show, Eq, Ord)
+data Slot = First | Second | Other String deriving (Show, Eq, Ord)
 
 data SlidesPath
   = BBSlide FilePath
