@@ -359,7 +359,7 @@ var files = [
 [ "21", "https://tiloburghardt.github.io", "Website of Tilo"],
 [ "22", "https://mengwangoxf.github.io", "Website of Meng"],
 [ "23", "http://people.cs.bris.ac.uk/~oray",      "Website of Oliver"],
-[ "24", "https://niravajmeri.github.io","Website of Nirav"],
+[ "24", "https://samfrohlich.github.io","Website of Samantha"],
 [ "25", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/grade.c",             "grade.c"],
 [ "26", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/Makefile",            "Improved Makefile"],
 [ "27", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week01/marking.html",        "Marking Guide"],
@@ -513,6 +513,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
