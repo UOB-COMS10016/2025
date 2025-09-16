@@ -1,5 +1,5 @@
 //LAYOUT CUSTOMIZATION
-var currentWeek   = 0;                         // current week [releases content fully visible up to this week]
+var currentWeek   = 1;                         // current week [releases content fully visible up to this week]
 var activityNum   = 8;                         // number of activities per week (empty slots possible)
 var columnNum     = 4;                         // desired columns per week (yet, autofitted to max 2 rows per week)
 var title         = "IMPERATIVE PROGRAMMING";  // content title (different to unitName since multiple content streams maybe in one unit)
@@ -53,13 +53,13 @@ var activities = [
 //WEEK 01 - INTRO
 ["5", "in your own time",   "<a href='https://seis.bristol.ac.uk/~sh1670/LinTut.pdf' target='_blank'>THE LINUX TUTORIAL</a><hr/><a href='http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_Marking.pdf' target='_blank'>MARKING GUIDE</a><hr/><a href='http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_PGuide.pdf' target='_blank'>GOLDEN C RULES</a>",         "", "", "0", "0"],
 // <a href='https://uob.sharepoint.com/:b:/r/teams/UnitTeams-COMS10016-2024-25-TB-1-A/Shared%20Documents/General/studycs2024.pdf?csf=1&web=1&e=7N6tVa' target='_blank'>HOW TO STUDY CS</a>
-["1", "Tue 17/09/24<br/>05:00pm-05:50pm<br/>CHEM BLDG LT1", "Welcome Lecture",  "404.html", "", "21", "4"],
+["1", "Mon 22/09/25<br/>10:00am-10:50am<br/>BIOMED BLDG E29", "Welcome Lecture",  "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_00.pdf", "", "21", "4"],
 // ["1", "Tue 17/09/24<br/>05:00pm-05:50pm<br/>CHEM BLDG LT1", "Welcome Lecture",  "https://uob.sharepoint.com/:b:/r/teams/UnitTeams-COMS10016-2024-25-TB-1-A/Shared%20Documents/General/COMS10016_00.pdf?csf=1&web=1&e=0jQgfY", "", "21", "4"],
-["0", "Tue 17/09/24<br/>05:00pm-05:50pm<br/>CHEM BLDG LT1",    "PROCEDURES &amp; PROGRAMS",       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_01.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/91d05240456c424a922dd1c8db97569d1d", "0", "2"],
-["11","Wed 18/09/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "GET YOUR PC READY",  "https://uob-coms10016.github.io/2025/setup.html", "", "0", "0"],
+["0", "Wed 24/09/25<br/>10:00am-11:00am<br/>MVB2.11/1.15",    "PROCEDURES &amp; PROGRAMS",       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_01.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/91d05240456c424a922dd1c8db97569d1d", "0", "2"],
+["11","Wed 24/09/24<br/>11:00am-01:00pm<br/>MVB2.11/1.15", "GET YOUR PC READY",  "https://uob-coms10016.github.io/2025/setup.html", "", "0", "0"],
 ["4", "in your own time",     "HAIL &amp; THUNDER",               "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task01.pdf", "", "11", "6"],
-["0", "Thu 19/09/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",     "TYPES, VARIABLES &amp; SCOPE",      "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_02.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/0015df077d4d4287892c1e7563a68da71d", "2", "4"],
-["0", "Fri 20/09/24<br/>09:00am-09:50am<br/>CHEM BLDG LT1",     "DECISIONS &amp; RECURSION", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_03.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/142dc3fec056475caa68332b17666b701d", "6", "5"],
+["0", "Thu 25/09/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",     "TYPES, VARIABLES &amp; SCOPE",      "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_02.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/0015df077d4d4287892c1e7563a68da71d", "2", "4"],
+["0", "Fri 26/09/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",     "DECISIONS &amp; RECURSION", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_03.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/142dc3fec056475caa68332b17666b701d", "6", "5"],
 ["10", "",                   "",                                "", "", "0", "0"],
 
 //WEEK 02 - WRITING SIMPLE C PROGRAMS AND RECURSION
@@ -513,6 +513,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
