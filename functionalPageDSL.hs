@@ -57,6 +57,7 @@ functionalPage =
               },
           materials =
             [ external "Welcome to Functional Programming Slides" "https://docs.google.com/presentation/d/1MKHf1CZkwJsLV3uAFo5z_BxJaFF6kmA1Vuc6TKloAjM/edit?usp=sharing"
+            , MkMaterial "Roadmap" (funcRootDir ++ "Roadmap.pdf")
             ]
         },
       Entry
