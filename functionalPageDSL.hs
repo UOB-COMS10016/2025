@@ -3,6 +3,7 @@
 {-# LANGUAGE NamedFieldPuns #-}
 {-# LANGUAGE RecordWildCards #-}
 {-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# OPTIONS_GHC -Wincomplete-patterns #-}
 
 {-# HLINT ignore "Evaluate" #-}
 
@@ -19,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 0,
+    { currentWeek = 1,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -65,7 +66,7 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
+                slidesFile' = Just NoTemplate,
                 lectureRecording = Nothing
               },
           materials =
@@ -801,6 +802,7 @@ data SlidesPath
   | BBCode FilePath
   | BBLectureCode FilePath
   | External URL
+  | NoTemplate
   deriving (Show, Eq)
 
 data Material = MkMaterial
@@ -977,6 +979,9 @@ maybeSlidesPathToURL = maybe notFoundPage slidesPathToUrl
 notFoundPage :: URL
 notFoundPage = "404.html"
 
+noTemplatePage :: URL
+noTemplatePage = "no-template.html"
+
 slidesPathToUrl :: SlidesPath -> URL
 slidesPathToUrl slidesFile =
   case slidesFile of
@@ -984,6 +989,7 @@ slidesPathToUrl slidesFile =
     BBCode path -> codeLink path
     BBLectureCode path -> lectureCodeLink path
     External url -> url
+    NoTemplate   -> noTemplatePage
 
 codeLink :: String -> URL
 codeLink = dir "code"

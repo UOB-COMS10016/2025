@@ -1,4 +1,4 @@
-const currentWeek   = 0;
+const currentWeek   = 1;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -34,7 +34,7 @@ var categories = [
 const activities = [
 ["1","(optional)","","","","0","1",],
 ["2","Mon 10:00-10:50<br/>BIOMEDICAL BLDG E29","Welcome & Introduction","https://docs.google.com/presentation/d/1MKHf1CZkwJsLV3uAFo5z_BxJaFF6kmA1Vuc6TKloAjM/edit?usp=sharing","","1","2",],
-["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Haskell Literacy: Expressions and Eval","404.html","","3","1",],
+["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Haskell Literacy: Expressions and Eval","no-template.html","","3","1",],
 ["3","Mon 16/09/24<br/>15:00-18:00<br/>Wed 18/09/24<br/>10:00-13:00<br/>MVB2.11/1.15","GET YOUR PC READY","./setup.html","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
