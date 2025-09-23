@@ -62,15 +62,17 @@ functionalPage =
             ]
         },
       Entry
-        { title = "Haskell Literacy: Expressions and Eval",
+        { title = "Expressions and Evaluation",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just NoTemplate,
+                slidesFile' = Just (BBLectureCode "ExpressionsBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            [ minSheet "https://forms.office.com/e/QZ62B9rgG8"
+            [ lectureCode "ExpressionsBP.hs"
+            , lectureCode "ExpressionsLive.hs"
+            , minSheet "https://forms.office.com/e/QZ62B9rgG8"
             ]
         },
       Entry
