@@ -112,7 +112,7 @@ functionalPage =
       Entry
         { title = "Basic Programming",
           spec = Worksheet "sheet01.pdf",
-          materials = sheets 1 ++ answers 1
+          materials = sheets 1 -- ++ answers 1
         }
     ],
     -- Week 3
@@ -160,7 +160,7 @@ functionalPage =
       Entry
         { title = "Lists",
           spec = Worksheet "sheet02.pdf",
-          materials = sheets 2 ++ answers 2
+          materials = sheets 2 -- ++ answers 2
         }
     ],
     -- Week 4
@@ -203,7 +203,7 @@ functionalPage =
       Entry
         { title = "ADTs, Polymorphism and Typeclasses",
           spec = Worksheet "sheet03.pdf",
-          materials = sheets 3 ++ answers 3
+          materials = sheets 3 -- ++ answers 3
         },
       Entry
         { title = "Power to the People",
@@ -253,12 +253,13 @@ functionalPage =
       Entry
         { title = "HO Programming and Laziness",
           spec = Worksheet "sheet04.pdf",
-          materials = sheets 4 ++ answers 4
+          materials = [sheet "sheetLazy.pdf", sheet "sheetLazyDyslexic.pdf"] ++ sheets 4
+            -- ++ [sheet "answerLazy.pdf", sheet "answerLazyDyslexic.pdf"] ++ answers 4
         },
       Entry
         { title = "Structural Inductive Proofs",
           spec = WorksheetBonus "sheetBonus1.pdf",
-          materials = sheetsBonus 1 ++ [note "Structural Inductive Proofs" "StructuralInductiveProofs.pdf"] ++ answersBonus 1
+          materials = sheetsBonus 1 ++ [note "Structural Inductive Proofs" "StructuralInductiveProofs.pdf"] -- ++ answersBonus 1
         }
     ],
     -- Reading week
@@ -303,7 +304,7 @@ functionalPage =
       Entry
         { title = "Folding",
           spec = Worksheet "sheet05.pdf",
-          materials = sheets 5 ++ answers 5
+          materials = sheets 5 -- ++ answers 5
         },
       Entry
         { title = "Sudoku",
@@ -362,7 +363,7 @@ functionalPage =
       Entry
         { title = "Functors and Parsers",
           spec = Worksheet "sheet06.pdf",
-          materials = sheets 6 ++ answers 6
+          materials = sheets 6 -- ++ answers 6
         },
       Entry
         { title = "Simplify",
@@ -411,12 +412,12 @@ functionalPage =
       Entry
         { title = "Applicatives and IO",
           spec = Worksheet "sheet07.pdf",
-          materials = sheets 7 ++ answers 7
+          materials = sheets 7 -- ++ answers 7
         },
       Entry -- we do want this to go up, Sam promised it last week
         { title = "Monoids",
           spec = WorksheetBonus "sheetBonus2.pdf",
-          materials = sheetsBonus 2 ++ [note "Monoids notes" "Monoids.pdf"] ++ answersBonus 2
+          materials = sheetsBonus 2 ++ [note "Monoids notes" "Monoids.pdf"] -- ++ answersBonus 2
         }
     ],
     -- Week 10
@@ -459,12 +460,12 @@ functionalPage =
       Entry
         { title = "Monads",
           spec = Worksheet "sheet08.pdf",
-          materials = sheets 8 ++ [sheet "Grogu.hs"] ++ answers 8
+          materials = sheets 8 ++ [sheet "Grogu.hs"] -- ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
           spec = WorksheetBonus "sheetBonus3.pdf",
-          materials = note "Data.Map" "DataMap.pdf" : sheetsBonus 3 ++ answersBonus 3
+          materials = note "Data.Map" "DataMap.pdf" : sheetsBonus 3 -- ++ answersBonus 3
         }
     ],
     -- Week 11
@@ -502,7 +503,7 @@ functionalPage =
       Entry
         { title = "Data Transformations",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9 ++ answers 9
+          materials = sheets 9 -- ++ answers 9
         }
     ],
     -- Week 12/revision week
@@ -542,7 +543,7 @@ functionalPage =
       -- , Entry
       --     { title = "Sheet of Death"
       --     , spec = WorksheetBonus "sheetBonus4.pdf"
-      --     , materials = sheetsBonus 4 ++ answersBonus 4
+      --     , materials = sheetsBonus 4 -- ++ answersBonus 4
       --     }
       ],
 
