@@ -135,7 +135,6 @@ are optional at the beginning of the unit. However, during the last part of the 
 
 <h2>CHECKING SDL2</h2>
 <ul>
-<li>Make doubly sure that you're using WSL2 (check <code>wsl --version</code>) and it's up to date (run <code>wsl --update</code>).</li>
 <li>Download the program <a href="hellosdl.c" target="_blank">hellosdl.c</a> and save it into a new folder, e.g. you could make a folder called "SDL-Test" in your local "Documents" folder and save it there.</li>
 <li>In your Ubuntu terminal, change directory to folder where you just saved the file, e.g. if you saved it in "Documents\SDL-Test" and you set up the "WindowsDocuments" symlink earlier, you could run <code>cd ~/WindowsDocuments/SDL-Test</code>
 <li>Compile the program in that folder by running <code>clang -std=c11 -Wall hellosdl.c -I /usr/include/SDL2 -l SDL2 -o hellosdl</code> , where the 'I' (uppercase i) in <code>-I /usr/include/SDL2</code> stands for "Include" and the 'l' (lowercase L) in <code>-l SDL2</code> stands for "link".</li>
