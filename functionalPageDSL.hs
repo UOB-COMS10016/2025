@@ -83,15 +83,17 @@ functionalPage =
     ],
     -- Week 2
     [ Entry
-        { title = "Branching and Recursion",
+        { title = "Pattern Matching and Recursion",
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "PatternsAndRecursionBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            [ minSheet "https://forms.office.com/e/2WYXgw55gE"
+            [ lectureCode "PatternsAndRecursionBP.hs"
+            , lectureCode "PatternsAndRecursionLive.hs"
+            , minSheet "https://forms.office.com/e/2WYXgw55gE"
             ]
         },
       Entry
