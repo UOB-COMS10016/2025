@@ -106,9 +106,9 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/BpZuXP2fVc"
-            , lectureCode "Types.hs"
+            , lectureCode "TypesLive.hs"
             , lectureCode "TypesTemplate.hs"
-            -- , lectureCode "TypesBP.hs"
+            , lectureCode "TypesBP.hs"
             ]
         },
       Entry
