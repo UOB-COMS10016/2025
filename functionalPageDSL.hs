@@ -67,7 +67,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "ExpressionsBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e8988639f39144fe870cde47f75b90671d?sortBy=most-recent"
               },
           materials =
             [ lectureCode "ExpressionsBP.hs"
@@ -88,7 +88,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "PatternsAndRecursionBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e1f29257460e4182bd80fa64a623fe3f1d?sortBy=most-recent"
               },
           materials =
             [ lectureCode "PatternsAndRecursionBP.hs"
