@@ -43,7 +43,7 @@ const activities = [
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["3","Mon 10:00-10:50<br/>BIOMEDICAL BLDG E29","Pattern Matching and Recursion","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/lectureCode/PatternsAndRecursionBP.hs","https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e1f29257460e4182bd80fa64a623fe3f1d?sortBy=most-recent","6","3",],
-["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Types","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/lectureCode/Types.hs","","9","4",],
+["3","Tues 16:00-16:50<br/>CHEM BLDG LT1","Types","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/lectureCode/Types.hs","https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/8b31499164f14e8eb9429ee6e79c469b1d?sortBy=most-recent","9","4",],
 ["5","Mon 15:00-18:00<br/>MVB2.11/1.15","Basic Programming","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet01.pdf","","13","5",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],

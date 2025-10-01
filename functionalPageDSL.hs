@@ -102,7 +102,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "Types.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/8b31499164f14e8eb9429ee6e79c469b1d?sortBy=most-recent"
               },
           materials =
             [ minSheet "https://forms.office.com/e/BpZuXP2fVc"
