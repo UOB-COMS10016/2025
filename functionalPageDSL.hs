@@ -148,13 +148,13 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
-            , lectureCode "ADTs.hs"
+            -- , lectureCode "ADTsLive.hs"
             , lectureCode "ADTsTemplate.hs"
             -- , lectureCode "ADTsBP.hs"
-            , lectureCode "Polymorphism.hs"
+            -- , lectureCode "PolymorphismLive.hs"
             , lectureCode "PolymorphismTemplate.hs"
             -- , lectureCode "PolymorphismBP.hs"
-            , lectureCode "Typeclasses.hs"
+            -- , lectureCode "TypeclassesLive.hs"
             , lectureCode "TypeclassesTemplate.hs"
             -- , lectureCode "TypeclassesBP.hs"
             ]
@@ -176,13 +176,13 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
-            , lectureCode "ADTs.hs"
+            -- , lectureCode "ADTsLive.hs"
             , lectureCode "ADTsTemplate.hs"
             -- , lectureCode "ADTsBP.hs"
-            , lectureCode "Polymorphism.hs"
+            -- , lectureCode "PolymorphismLive.hs"
             , lectureCode "PolymorphismTemplate.hs"
             -- , lectureCode "PolymorphismBP.hs"
-            , lectureCode "Typeclasses.hs"
+            -- , lectureCode "TypeclassesLive.hs"
             , lectureCode "TypeclassesTemplate.hs"
             -- , lectureCode "TypeclassesBP.hs"
             ]
@@ -197,7 +197,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/szsFDhzxzC"
-            , lectureCode "HO.hs"
+            -- , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
             -- , lectureCode "HObp.hs"
             ]
@@ -235,7 +235,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/5LyvfU8eUu"
-            , lectureCode "HO.hs"
+            -- , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
             -- , lectureCode "HObp.hs"
             ]
@@ -289,7 +289,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/vKdE4rXTkw"
-            , lectureCode "Functor.hs"
+            -- , lectureCode "FunctorLive.hs"
             , lectureCode "FunctorTemplate.hs"
             -- , lectureCode "FunctorBP.hs"
             ]
