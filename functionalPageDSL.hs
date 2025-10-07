@@ -131,11 +131,13 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "ListsPatternMatchingBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
-            [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
+            [ lectureCode "ListsPatternMatchingBP.hs"
+            , lectureCode "ListsPatternMatchingLive.hs"
+            , minSheet "https://forms.office.com/e/6fkHNR7iaW"
             ]
         },
       Entry
@@ -160,7 +162,7 @@ functionalPage =
       Entry
         { title = "Lists",
           spec = Worksheet "sheet02.pdf",
-          materials = sheets 2 -- ++ answers 2
+          materials = sheets 2 ++ answers 2
         }
     ],
     -- Week 4
