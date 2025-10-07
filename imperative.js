@@ -363,8 +363,8 @@ var files = [
 [ "24", "https://samfrohlich.github.io","Website of Samantha"],
 [ "25", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/grade.c",             "grade.c"],
 [ "26", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/Makefile",            "Improved Makefile"],
-[ "27", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week01/marking.html",        "Marking Guide"],
-[ "28", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week01/style.html",          "C Style Guide"],
+[ "27", "http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_Marking.pdf",        "Marking Guide"],
+[ "28", "http://people.cs.bris.ac.uk/~burghard/setup/COMS10016_CStyle.pdf",          "C Style Guide"],
 [ "29", "https://academic.oup.com/mind/article/LIX/236/433/986238",          "Computing Machinery and Intelligence"],
 [ "30", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week02/COMS10016_GoldenRules.pdf",          "Golden Rules"],
 [ "31", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/grade.c",                    "grade.c"],
@@ -514,6 +514,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
