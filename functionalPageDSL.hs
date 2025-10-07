@@ -150,7 +150,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
-            -- , lectureCode "ADTsPolymorphismTypeclassesLive.hs"
+            , lectureCode "ADTsPolymorphismTypeclassesLive.hs"
             , lectureCode "ADTsTemplate.hs"
             -- , lectureCode "ADTsBP.hs"
             , lectureCode "PolymorphismTemplate.hs"
