@@ -211,7 +211,7 @@ functionalPage =
             Coursework
               { instructions = "CW1/CW1-Instrs.pdf",
                 submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
-                deadline = "12:00 Tues 04/11/25"
+                deadline = "Noon, Tues 04/11/25"
               },
           materials =
             map
@@ -371,7 +371,7 @@ functionalPage =
             Coursework
               { instructions = "CW2/CW2-Instrs.pdf",
                 submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
-                deadline = "12:00 Thurs 27/11/25<br/>(submit at least 1 hour early)"
+                deadline = "Noon, Thurs 27/11/25<br/>(submit at least 1 hour early)"
               },
           materials =
             map
