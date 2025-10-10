@@ -20,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 3,
+    { currentWeek = 4,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -176,13 +176,11 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
-            -- , lectureCode "ADTsLive.hs"
+            , lectureCode "ADTsPolymorphismTypeclassesLive.hs"
             , lectureCode "ADTsTemplate.hs"
             -- , lectureCode "ADTsBP.hs"
-            -- , lectureCode "PolymorphismLive.hs"
             , lectureCode "PolymorphismTemplate.hs"
             -- , lectureCode "PolymorphismBP.hs"
-            -- , lectureCode "TypeclassesLive.hs"
             , lectureCode "TypeclassesTemplate.hs"
             -- , lectureCode "TypeclassesBP.hs"
             ]
