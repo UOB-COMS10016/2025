@@ -178,11 +178,11 @@ functionalPage =
             [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
             , lectureCode "ADTsPolymorphismTypeclassesLive.hs"
             , lectureCode "ADTsTemplate.hs"
-            -- , lectureCode "ADTsBP.hs"
+            , lectureCode "ADTsBP.hs"
             , lectureCode "PolymorphismTemplate.hs"
-            -- , lectureCode "PolymorphismBP.hs"
+            , lectureCode "PolymorphismBP.hs"
             , lectureCode "TypeclassesTemplate.hs"
-            -- , lectureCode "TypeclassesBP.hs"
+            , lectureCode "TypeclassesBP.hs"
             ]
         },
       Entry
