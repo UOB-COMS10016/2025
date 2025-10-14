@@ -195,7 +195,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/szsFDhzxzC"
-            -- , lectureCode "HOLive.hs"
+            , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
             -- , lectureCode "HObp.hs"
             ]
