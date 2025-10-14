@@ -73,18 +73,19 @@ var activities = [
 ["8", "",                     "",                                 "", "", "0", "0"],
  
 //WEEK 03 - LOOPS, ARRAYS, STRINGS
-["3", "in your own time",   "PRIME SUSPECT",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task03.pdf", "", "53", "1"],
+["4", "in your own time",   "PRIME SUSPECT",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task03.pdf", "", "53", "1"],
 ["0", "Wed 08/10/25<br/>10:00am-11:00am<br/>MVB2.11/1.15",     "STRINGS", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_07.pdf", "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/strings-20211006_015901.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k5lwXJ",  "37", "6"],
 ["0", "Thu 09/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",   "SEARCHING", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_08.pdf", "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/Complexity-20211006_021254.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FauRAO",  "43", "1"],
 ["6", "Wed 01/10/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "GRADE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/sample/grade.c' target='_blank'>(Grade Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/index.html", "", "25", "4"],
 //["6", "Wed 01/10/25<br/>10:00am-1:00pm<br/>MVB2.11/1.15", "GRADE CHALLENGE<br/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week03/index.html", "", "25", "4"],
-["24", "optional preview tasks",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
+["10", "",                     "",                                 "", "", "0", "0"],
+//["24", "optional preview tasks",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
 ["0", "Thu 09/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",   "RUNTIME COMPLEXITY",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_09.pdf",  "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/Complexity-20211006_021254.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FauRAO", "43", "1"],
 ["0", "Fri 10/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",    "BITS",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_10.pdf",        "https://mediasite.bris.ac.uk/Mediasite/Play/a3533af3bc4e4fc0906e5ca4f2133dcf1d", "56", "1"],
 ["8", "",                     "",                                 "", "", "0", "0"],
 
 //WEEK 04 - BITS, POINTERS
-["4", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
+["3", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
 ["0", "Thu 16/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",          "POINTERS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_11.pdf",           "https://mediasite.bris.ac.uk/Mediasite/Play/388e5402b8404f5d8dc76f2115f16cb31d",  "57", "2"],
 ["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",    "STRUCTURES &amp; USER TYPES",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_12_OR.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/7d3fe970d51b4ce69c1de4f69a99629a1d", "59", "2"],
 //["6", "Wed 09/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'>(Triangle Solution)</a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/strings.c' target='_blank'>(Strings Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/index.html", "", "44", "4"],
@@ -515,6 +516,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
