@@ -132,7 +132,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "ListsPatternMatchingBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/a17919b245bf4b7fb6e8fc1a030cd6e81d?sortBy=most-recent"
               },
           materials =
             [ lectureCode "ListsPatternMatchingBP.hs"
@@ -145,8 +145,8 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
-                lectureRecording = Nothing
+                slidesFile' = Just (BBLectureCode "ADTsPolymorphismTypeclassesLive.hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/6ff54ed428af4d1b9d25ea70135c572e1d?sortBy=most-recent"
               },
           materials =
             [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
@@ -171,8 +171,8 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
-                lectureRecording = Nothing
+                slidesFile' = Just (BBLectureCode "ADTsPolymorphismTypeclassesLive.hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e0ac0f0e335d4589a517c97906c67aa61d?sortBy=most-recent"
               },
           materials =
             [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
@@ -190,7 +190,7 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBLectureCode "HO.hs"),
+                slidesFile' = Nothing,
                 lectureRecording = Nothing
               },
           materials =
@@ -228,7 +228,7 @@ functionalPage =
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Just (BBLectureCode "HO.hs"),
+                slidesFile' = Nothing,
                 lectureRecording = Nothing
               },
           materials =
