@@ -203,7 +203,7 @@ functionalPage =
       Entry
         { title = "ADTs, Polymorphism and Typeclasses",
           spec = Worksheet "sheet03.pdf",
-          materials = sheets 3 -- ++ answers 3
+          materials = sheets 3 ++ answers 3
         },
       Entry
         { title = "Power to the People",
