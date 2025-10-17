@@ -20,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 4,
+    { currentWeek = 5,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -233,7 +233,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/5LyvfU8eUu"
-            -- , lectureCode "HOLive.hs"
+            , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
             -- , lectureCode "HObp.hs"
             ]
