@@ -190,14 +190,14 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
-                lectureRecording = Nothing
+                slidesFile' = Just (BBLectureCode "HOLive.hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/MyMediasite/presentations/08b75ad11e4a40799af16ad46219723e1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/szsFDhzxzC"
             , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
-            -- , lectureCode "HObp.hs"
+            , lectureCode "HObp.hs"
             ]
         },
       Entry
@@ -228,14 +228,14 @@ functionalPage =
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Nothing,
-                lectureRecording = Nothing
+                slidesFile' = Just (BBLectureCode "HOLive.hs"),
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/MyMediasite/presentations/1cc5a03904124b5394267386be7c6b231d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/5LyvfU8eUu"
             , lectureCode "HOLive.hs"
             , lectureCode "HOtemplate.hs"
-            -- , lectureCode "HObp.hs"
+            , lectureCode "HObp.hs"
             ]
         },
       Entry
