@@ -253,13 +253,15 @@ functionalPage =
       Entry
         { title = "HO Programming and Laziness",
           spec = Worksheet "sheet04.pdf",
-          materials = [sheet "sheetLazy.pdf", sheet "sheetLazyDyslexic.pdf"] ++ sheets 4
-            -- ++ [sheet "answerLazy.pdf", sheet "answerLazyDyslexic.pdf"] ++ answers 4
+          materials = sheets  4
+                   ++ answers 4
+                   ++ [sheet "sheetLazy.pdf",  sheet "sheetLazyDyslexic.pdf"]
+                   ++ [sheet "answerLazy.pdf", sheet "answerLazyDyslexic.pdf"]
         },
       Entry
         { title = "Structural Inductive Proofs",
           spec = WorksheetBonus "sheetBonus1.pdf",
-          materials = sheetsBonus 1 ++ [note "Structural Inductive Proofs" "StructuralInductiveProofs.pdf"] -- ++ answersBonus 1
+          materials = sheetsBonus 1 ++ [note "Structural Inductive Proofs" "StructuralInductiveProofs.pdf"] ++ answersBonus 1
         }
     ],
     -- Reading week
