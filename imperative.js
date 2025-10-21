@@ -100,7 +100,7 @@ var activities = [
 ["0", "Wed 22/10/25<br/>10:00am-11:00am<br/>MVB2.11/1.15",    "DYNAMIC DATA",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_13.pdf",        "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/Dynamic%20Data-20211006_031319.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XtbF7E", "81", "5"],
 ["0", "Thu 23/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",     "STACKS",            "</a>https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_14_OR.pdf<a>",           "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/Dynamic%20Stack%20Visualization-20211006_030730.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dQwPPd",  "79", "2"],
 //["7", "in your own time", "LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week06/index.html", "", "91", "3"],
-["7", "in your own time", "</a>LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>RELEASE ON<hr/>FRI 24/10/25, 1pm<a>", "", "", "0", "0"],
+["7", "in your own time", "</a>LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>RELEASE ON<br/>FRI 24/10/25, 1pm<a>", "", "", "0", "0"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "LISTS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_15.pdf",           "https://uob-my.sharepoint.com/:v:/r/personal/sh1670_bristol_ac_uk/Documents/Stream%20Migrated%20Videos/Dynamic%202d%20array%20allocation%20and%20deallocation-20201021_095007.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0Hf8dc",  "86", "2"],
 ["9", "",                     "",                                 "", "", "0", "0"],
@@ -517,6 +517,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
