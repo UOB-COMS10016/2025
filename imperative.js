@@ -1,5 +1,5 @@
 //LAYOUT CUSTOMIZATION
-var currentWeek   = 4;                         // current week [releases content fully visible up to this week]
+var currentWeek   = 5;                         // current week [releases content fully visible up to this week]
 var activityNum   = 8;                         // number of activities per week (empty slots possible)
 var columnNum     = 4;                         // desired columns per week (yet, autofitted to max 2 rows per week)
 var title         = "IMPERATIVE PROGRAMMING";  // content title (different to unitName since multiple content streams maybe in one unit)
@@ -85,7 +85,7 @@ var activities = [
 ["8", "",                     "",                                 "", "", "0", "0"],
 
 //WEEK 04 - BITS, POINTERS
-["3", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
+["4", "in your own time",   "BITS &amp; POINTERS",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task04.pdf", "", "171", "6"],
 ["0", "Thu 16/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",          "POINTERS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_11.pdf",           "https://mediasite.bris.ac.uk/Mediasite/Play/388e5402b8404f5d8dc76f2115f16cb31d",  "57", "2"],
 ["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",    "STRUCTURES &amp; USER TYPES",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_12_OR.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/7d3fe970d51b4ce69c1de4f69a99629a1d", "59", "2"],
 //["6", "Wed 09/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'>(Triangle Solution)</a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/strings.c' target='_blank'>(Strings Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/index.html", "", "44", "4"],
@@ -96,14 +96,15 @@ var activities = [
 ["8", "",                     "",                                 "", "", "0", "0"],
 
 //WEEK 05 - WORKING WITH POINTERS
-["4", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
-["0", "Thu 17/10/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",    "DYNAMIC DATA",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_13_OR.pdf",        "https://web.microsoftstream.com/video/1c746e39-efab-4eea-9d42-35dfa9a876f9", "81", "5"],
-["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "STACKS",            "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_14_OR.pdf",           "https://web.microsoftstream.com/video/125300f5-3aec-4318-a1ad-b80bc0aad486",  "79", "2"],
-["7", "in your own time", "LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week06/index.html", "", "91", "3"],
+["3", "in your own time",   "CELLULAR",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task05.pdf", "", "88", "1"],
+["0", "Wed 22/10/25<br/>10:00am-11:00am<br/>MVB2.11/1.15",    "DYNAMIC DATA",          "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_13_OR.pdf",        "https://web.microsoftstream.com/video/1c746e39-efab-4eea-9d42-35dfa9a876f9", "81", "5"],
+["0", "Thu 23/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",     "STACKS",            "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_14_OR.pdf",           "https://web.microsoftstream.com/video/125300f5-3aec-4318-a1ad-b80bc0aad486",  "79", "2"],
+//["7", "in your own time", "LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week06/index.html", "", "91", "3"],
+["7", "in your own time", "LIST ASSIGNMENT<br/>(20% of unit mark)<hr/>", "", "", "0", "0"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Fri 18/10/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "LISTS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_15_OR.pdf",           "https://web.microsoftstream.com/video/40263cce-c988-4df7-9a24-1d28dc34b659",  "86", "2"],
+["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "LISTS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_15_OR.pdf",           "https://web.microsoftstream.com/video/40263cce-c988-4df7-9a24-1d28dc34b659",  "86", "2"],
 ["9", "",                     "",                                 "", "", "0", "0"],
-["8", "<b>Submission Deadline</b><br/>Thu 31/10/24<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Weds 30/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline'><b>SUBMIT via Gradebook (Top Menu on Blackboard Page)</b></a>", "", "", "0", "0"], 
+["8", "<b>Submission Deadline</b><br/>Thu 06/11/25<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Weds 05/11/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline'><b>SUBMIT via Gradebook (Top Menu on Blackboard Page)</b></a>", "", "", "0", "0"], 
 
 //WEEK 06 - READING WEEK
 ["12", "",                     "",                                 "", "", "0", "0"],
@@ -516,6 +517,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
