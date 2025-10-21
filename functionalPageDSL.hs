@@ -243,11 +243,12 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBLectureCode "FoldsPart1Template.hs"),
+                slidesFile' = Just (BBLectureCode "FoldsPart1BP.hs"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/0TFiDaNH9J"
+            , lectureCode "FoldsPart1BP.hs"
             , lectureCode "FoldsPart1Template.hs"
             ]
         },
