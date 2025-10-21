@@ -1,5 +1,5 @@
 //LAYOUT CUSTOMIZATION
-var currentWeek   = 5;                         // current week [releases content fully visible up to this week]
+var currentWeek   = 4;                         // current week [releases content fully visible up to this week]
 var activityNum   = 8;                         // number of activities per week (empty slots possible)
 var columnNum     = 4;                         // desired columns per week (yet, autofitted to max 2 rows per week)
 var title         = "IMPERATIVE PROGRAMMING";  // content title (different to unitName since multiple content streams maybe in one unit)
@@ -517,6 +517,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
