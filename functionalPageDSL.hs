@@ -250,6 +250,7 @@ functionalPage =
             [ minSheet "https://forms.office.com/e/0TFiDaNH9J"
             , lectureCode "FoldsPart1BP.hs"
             , lectureCode "FoldsPart1Template.hs"
+            , lectureCode "FoldsPart1Live.hs"
             ]
         },
       Entry
