@@ -295,9 +295,9 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/vKdE4rXTkw"
-            -- , lectureCode "FunctorLive.hs"
+            , lectureCode "FunctorLive.hs"
             , lectureCode "FunctorTemplate.hs"
-            -- , lectureCode "FunctorBP.hs"
+            , lectureCode "FunctorBP.hs"
             ]
         },
       Entry
