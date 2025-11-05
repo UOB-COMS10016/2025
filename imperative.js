@@ -109,11 +109,11 @@ var activities = [
 ["12", "",                     "",                                 "", "", "0", "0"],
 ["12", "",                     "",                                 "", "", "0", "0"],
 ["12", "",                     "",                                 "", "", "0", "0"],
-["8", "",                     "",                                  "", "", "0", "0"],
-["10", "",                     "",                                 "", "", "0", "0"],
-["10", "",                     "",                                 "", "", "0", "0"],
-["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline'><b>SUBMIT via Gradebook (Top Menu on Blackboard Page)</b></a>",                     "",                                  "", "", "0", "0"],
+["10", "",                     "",                                 "", "", "0", "0"],
+["10", "",                     "",                                 "", "", "0", "0"],
+["10", "",                     "",                                 "", "", "0", "0"],
+["8", "",                     "",                                  "", "", "0", "0"],
 
 //WEEK 07 - 
 ["3", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
@@ -516,6 +516,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
