@@ -290,7 +290,7 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBLectureCode "FunctorTemplate.hs"),
+                slidesFile' = Just (BBLectureCode "FunctorBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
@@ -333,7 +333,7 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "ParsersTemplate.hs"),
                 lectureRecording = Nothing
               },
           materials =
@@ -348,7 +348,7 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "ApplicativeTemplate.hs"),
                 lectureRecording = Nothing
               },
           materials =
@@ -377,7 +377,7 @@ functionalPage =
       Entry
         { title = "Functors and Parsers",
           spec = Worksheet "sheet06.pdf",
-          materials = [] --sheets 6 -- ++ answers 6
+          materials = sheets 6 -- ++ answers 6
         }
       --   ,
       -- Entry
