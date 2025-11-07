@@ -20,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 7,
+    { currentWeek = 8,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -338,6 +338,9 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/d7Sv7F7kPF"
+            --, lectureCode "ParsersLive.hs"
+            , lectureCode "ParsersTemplate.hs"
+            --, lectureCode "ParsersBP.hs"
             ]
         },
       Entry
@@ -350,6 +353,9 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/iacb4N8pbh"
+            -- , lectureCode "ApplicativeLive.hs"
+            , lectureCode "ApplicativeTemplate.hs"
+            -- , lectureCode "ApplicativeBP.hs"
             ]
         },
       Entry
@@ -371,24 +377,25 @@ functionalPage =
       Entry
         { title = "Functors and Parsers",
           spec = Worksheet "sheet06.pdf",
-          materials = sheets 6 -- ++ answers 6
-        },
-      Entry
-        { title = "Simplify",
-          spec =
-            Coursework
-              { instructions = "CW2/CW2-Instrs.pdf",
-                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
-                deadline = "Noon, Thurs 27/11/25<br/>(submit at least 1 hour early)"
-              },
-          materials =
-            map
-              (coursework "CW2")
-              [ "CW2-Instrs.pdf",
-                "CW2-InstrsDyslexic.pdf",
-                "CW2-Simplify.zip"
-              ]
+          materials = [] --sheets 6 -- ++ answers 6
         }
+      --   ,
+      -- Entry
+      --   { title = "Simplify",
+      --     spec =
+      --       Coursework
+      --         { instructions = "CW2/CW2-Instrs.pdf",
+      --           submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
+      --           deadline = "Noon, Thurs 27/11/25<br/>(submit at least 1 hour early)"
+      --         },
+      --     materials =
+      --       map
+      --         (coursework "CW2")
+      --         [ "CW2-Instrs.pdf",
+      --           "CW2-InstrsDyslexic.pdf",
+      --           "CW2-Simplify.zip"
+      --         ]
+      --   }
     ],
     -- Week 9
     [ Entry
