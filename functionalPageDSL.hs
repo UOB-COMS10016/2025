@@ -377,7 +377,7 @@ functionalPage =
       Entry
         { title = "Functors and Parsers",
           spec = Worksheet "sheet06.pdf",
-          materials = sheets 6 -- ++ answers 6
+          materials = sheets 6 ++ answers 6
         }
         ,
       Entry
