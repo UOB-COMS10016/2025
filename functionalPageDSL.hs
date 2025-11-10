@@ -338,9 +338,9 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/d7Sv7F7kPF"
-            --, lectureCode "ParsersLive.hs"
+            , lectureCode "ParsersLive.hs"
             , lectureCode "ParsersTemplate.hs"
-            --, lectureCode "ParsersBP.hs"
+            , lectureCode "ParsersBP.hs"
             ]
         },
       Entry
