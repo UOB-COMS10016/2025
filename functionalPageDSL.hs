@@ -379,23 +379,23 @@ functionalPage =
           spec = Worksheet "sheet06.pdf",
           materials = sheets 6 -- ++ answers 6
         }
-      --   ,
-      -- Entry
-      --   { title = "Simplify",
-      --     spec =
-      --       Coursework
-      --         { instructions = "CW2/CW2-Instrs.pdf",
-      --           submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
-      --           deadline = "Noon, Thurs 27/11/25<br/>(submit at least 1 hour early)"
-      --         },
-      --     materials =
-      --       map
-      --         (coursework "CW2")
-      --         [ "CW2-Instrs.pdf",
-      --           "CW2-InstrsDyslexic.pdf",
-      --           "CW2-Simplify.zip"
-      --         ]
-      --   }
+        ,
+      Entry
+        { title = "Simplify",
+          spec =
+            Coursework
+              { instructions = "CW2/CW2-Instrs.pdf",
+                submissionLink = "https://www.ole.bris.ac.uk/ultra/courses/_264153_1/outline",
+                deadline = "Noon, Thurs 27/11/25<br/>(submit at least 1 hour early)"
+              },
+          materials =
+            map
+              (coursework "CW2")
+              [ "CW2-Instrs.pdf",
+                "CW2-InstrsDyslexic.pdf",
+                "CW2-Simplify.zip"
+              ]
+        }
     ],
     -- Week 9
     [ Entry
