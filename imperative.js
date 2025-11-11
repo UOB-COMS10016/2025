@@ -1,5 +1,5 @@
 //LAYOUT CUSTOMIZATION
-var currentWeek   = 7;                         // current week [releases content fully visible up to this week]
+var currentWeek   = 8;                         // current week [releases content fully visible up to this week]
 var activityNum   = 8;                         // number of activities per week (empty slots possible)
 var columnNum     = 4;                         // desired columns per week (yet, autofitted to max 2 rows per week)
 var title         = "IMPERATIVE PROGRAMMING";  // content title (different to unitName since multiple content streams maybe in one unit)
@@ -116,22 +116,22 @@ var activities = [
 ["8", "",                     "",                                  "", "", "0", "0"],
 
 //WEEK 07 - 
-["3", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
+["4", "in your own time",   "BUBBLE",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_Task06.pdf", "", "95", "1"],
 ["0", "Thu 06/11/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",   "TREES",                       "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_16_OR.pdf",   "https://mediasite.bris.ac.uk/Mediasite/Play/ba910510d107433b8ef0b94b1e92d2d81d", "94", "1"],
 ["15", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                  "", "", "0", "0"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "SORTING",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_17_OR.pdf",      "https://mediasite.bris.ac.uk/Mediasite/Play/ab93766ee4b64918925dd1d8e18f8e111d", "105", "1"],
+["0", "Fri 07/11/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "SORTING",                   "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_17_OR.pdf",      "https://mediasite.bris.ac.uk/Mediasite/Play/ab93766ee4b64918925dd1d8e18f8e111d", "105", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
  
 //WEEK 08 - 
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Thu 07/11/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",   "FUNCTION POINTERS",     "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_18.pdf",          "https://mediasite.bris.ac.uk/Mediasite/Play/434d2a8c7d8940c5ada2244ed17243bb1d", "101", "3"],
+["0", "Thu 13/11/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",   "FUNCTION POINTERS",     "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_18.pdf",          "https://mediasite.bris.ac.uk/Mediasite/Play/434d2a8c7d8940c5ada2244ed17243bb1d", "101", "3"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["6", "Wed 06/11/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TEXT CHALLENGE<br/><br/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week08/index.html", "", "96", "4"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Fri 08/11/24<br/>09:00pm-09:50pm<br/>CHEM BLDG LT1",   "INPUT &amp; OUTPUT",  "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_19_NA.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/5d0479bdadf5499a8c252f4911f5883f1d",  "121", "9"],
+["0", "Fri 14/11/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "INPUT &amp; OUTPUT",  "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_19.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/5d0479bdadf5499a8c252f4911f5883f1d",  "121", "9"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "",                     "",                                 "", "", "0", "0"],
  
@@ -516,6 +516,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
