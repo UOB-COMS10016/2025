@@ -89,7 +89,7 @@ var activities = [
 ["0", "Thu 16/10/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",          "POINTERS",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_11.pdf",           "https://mediasite.bris.ac.uk/Mediasite/Play/388e5402b8404f5d8dc76f2115f16cb31d",  "57", "2"],
 ["0", "Fri 17/10/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",    "STRUCTURES &amp; USER TYPES",             "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_12_OR.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/7d3fe970d51b4ce69c1de4f69a99629a1d", "59", "2"],
 //["6", "Wed 09/10/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'>(Triangle Solution)</a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/strings.c' target='_blank'>(Strings Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/index.html", "", "44", "4"],
-["6", "Wed 15/10/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/triangle.c", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/index.html", "", "44", "4"],
+["6", "Wed 15/10/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "TRIANGLE CHALLENGE<br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/triangle.c' target='_blank'>(Triangle Solution)</a><br/><a target='_blank' href='https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/sample/strings.c' target='_blank'>(Strings Solution)</a>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week04/index.html", "", "44", "4"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["9", "",                     "",                                 "", "", "0", "0"],
 ["9", "",                     "",                                 "", "", "0", "0"],
@@ -516,6 +516,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
