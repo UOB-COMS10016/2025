@@ -353,7 +353,7 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/iacb4N8pbh"
-            -- , lectureCode "ApplicativeLive.hs"
+            , lectureCode "ApplicativeLive.hs"
             , lectureCode "ApplicativeTemplate.hs"
             -- , lectureCode "ApplicativeBP.hs"
             ]
