@@ -20,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 8,
+    { currentWeek = 9,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -399,7 +399,7 @@ functionalPage =
     ],
     -- Week 9
     [ Entry
-        { title = "IO",
+        { title = "Applicatives cont.",
           spec =
             Lecture
               { slot = First,
@@ -408,10 +408,13 @@ functionalPage =
               },
           materials =
             [ minSheet "https://forms.office.com/e/9Hd3RVV27R"
+            , lectureCode "ApplicativeLive.hs"
+            , lectureCode "ApplicativeTemplate.hs"
+            -- , lectureCode "ApplicativeBP.hs"
             ]
         },
       Entry
-        { title = "Monads",
+        { title = "IO",
           spec =
             Lecture
               { slot = Second,
@@ -429,7 +432,7 @@ functionalPage =
           spec = Worksheet "sheet07.pdf",
           materials = sheets 7 -- ++ answers 7
         },
-      Entry -- we do want this to go up, Sam promised it last week
+      Entry
         { title = "Monoids",
           spec = WorksheetBonus "sheetBonus2.pdf",
           materials = sheetsBonus 2 ++ [note "Monoids notes" "Monoids.pdf"] -- ++ answersBonus 2
