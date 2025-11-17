@@ -433,7 +433,7 @@ functionalPage =
       Entry
         { title = "Applicative Parsing",
           spec = Worksheet "sheet07.pdf",
-          materials = sheets 7 ++ [MkMaterial "Skeleton code" (sheetLink "Sheet7Skeleton.hs")] -- ++ answers 7
+          materials = sheets 7 ++ [MkMaterial "Skeleton code" (sheetLink "Sheet7Skeleton.hs")] ++ answers 7
         },
       Entry
         { title = "Monoids",
