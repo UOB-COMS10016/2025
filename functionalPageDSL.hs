@@ -411,6 +411,8 @@ functionalPage =
             , lectureCode "ApplicativeLive.hs"
             , lectureCode "ApplicativeTemplate.hs"
             , lectureCode "ApplicativeBP.hs"
+            , lectureCode "ApplicativeChessParsingBP.hs"
+            , lectureCode "ApplicativeChessParsingLive.hs"
             , lectureCode "ApplicativeChessParsingTemplate.hs"
             ]
         },
