@@ -355,7 +355,7 @@ functionalPage =
             [ minSheet "https://forms.office.com/e/iacb4N8pbh"
             , lectureCode "ApplicativeLive.hs"
             , lectureCode "ApplicativeTemplate.hs"
-            -- , lectureCode "ApplicativeBP.hs"
+            , lectureCode "ApplicativeBP.hs"
             ]
         },
       Entry
@@ -403,14 +403,15 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "ApplicativeChessParsingTemplate.hs"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/9Hd3RVV27R"
             , lectureCode "ApplicativeLive.hs"
             , lectureCode "ApplicativeTemplate.hs"
-            -- , lectureCode "ApplicativeBP.hs"
+            , lectureCode "ApplicativeBP.hs"
+            , lectureCode "ApplicativeChessParsingTemplate.hs"
             ]
         },
       Entry
@@ -428,9 +429,9 @@ functionalPage =
       --   slide "IO-and-Gen.pdf"
       -- , code "ExampleIO.hs"
       Entry
-        { title = "Applicatives and IO",
-          spec = Worksheet "sheet07.pdf",
-          materials = sheets 7 -- ++ answers 7
+        { title = "Applicative Parsing",
+          spec = Worksheet "404.html", -- "sheet07.pdf",
+          materials = [] -- sheets 7 -- ++ answers 7
         },
       Entry
         { title = "Monoids",
