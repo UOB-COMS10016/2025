@@ -430,8 +430,8 @@ functionalPage =
       -- , code "ExampleIO.hs"
       Entry
         { title = "Applicative Parsing",
-          spec = Worksheet "404.html", -- "sheet07.pdf",
-          materials = [] -- sheets 7 -- ++ answers 7
+          spec = Worksheet "sheet07.pdf",
+          materials = sheets 7 -- ++ answers 7
         },
       Entry
         { title = "Monoids",
