@@ -403,7 +403,7 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBLectureCode "ApplicativeChessParsingTemplate.hs"),
+                slidesFile' = Just (BBLectureCode "ApplicativeChessParsingBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
@@ -421,11 +421,13 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "IOBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/pkByWDsxVn"
+            , lectureCode "IOBP.hs"
+            , lectureCode "IOLive.hs"
             ]
         },
       --   slide "IO-and-Gen.pdf"
@@ -443,17 +445,7 @@ functionalPage =
     ],
     -- Week 10
     [ Entry
-        { title = "Mock Test",
-          spec = MockTest {test = noteLink "mock.pdf"},
-          materials =
-            map
-              note'
-              [ "mock.pdf"
-              , "mock-answers.pdf"
-              ]
-        },
-      Entry
-        { title = "Property-based Testing",
+        { title = "IO Cont. (Katamari Haskacy)",
           spec =
             Lecture
               { slot = First,
@@ -464,13 +456,12 @@ functionalPage =
             [ minSheet "https://forms.office.com/e/Q8rH5TSGCa"
             ]
         },
-
       Entry
-        { title = "Programs as Data Transformations",
+        { title = "Monads and Power Scaling",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (BBSlide "function-composition.pdf"),
+                slidesFile' = Nothing,
                 lectureRecording = Nothing
               },
           materials =
@@ -479,9 +470,9 @@ functionalPage =
         },
 
       Entry
-        { title = "Monads",
+        { title = "IO",
           spec = Worksheet "sheet08.pdf",
-          materials = sheets 8 ++ [sheet "Grogu.hs"] -- ++ answers 8
+          materials = sheets 8 -- ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
@@ -491,11 +482,21 @@ functionalPage =
     ],
     -- Week 11
     [ Entry
-        { title = "Model-View-Update Pattern",
+        { title = "Mock Test",
+          spec = MockTest {test = noteLink "mock.pdf"},
+          materials =
+            map
+              note'
+              [ "mock.pdf"
+              , "mock-answers.pdf"
+              ]
+        },
+      Entry
+        { title = "Function Composition and Data Transformations",
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBSlide "function-composition.pdf"),
                 lectureRecording = Nothing
               },
           materials =
@@ -522,9 +523,9 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Data Transformations",
+        { title = "Monads and Data Transformations",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9 -- ++ answers 9
+          materials = sheets 9  -- ++ [sheet "Grogu.hs"] -- ++ answers 9
         }
     ],
     -- Week 12/revision week
