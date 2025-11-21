@@ -20,7 +20,7 @@ main = putStr $ pageToJS functionalPage config
 config :: Config
 config =
   MkConfig
-    { currentWeek = 9,
+    { currentWeek = 10,
       activityNum = 8,
       columnNum = 4,
       title = "FUNCTIONAL PROGRAMMING",
@@ -472,7 +472,7 @@ functionalPage =
       Entry
         { title = "IO",
           spec = Worksheet "sheet08.pdf",
-          materials = sheets 8 -- ++ answers 8
+          materials = [] -- sheets 8 -- ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",

@@ -1,4 +1,4 @@
-const currentWeek   = 9;
+const currentWeek   = 10;
 const activityNum   = 8;
 const columnNum     = 4;
 const title         = "FUNCTIONAL PROGRAMMING";
@@ -108,15 +108,15 @@ const activities = [
 ["0","","","","","0","0",],
 ["2","Mon 10:00-10:50<br/>BIOMEDICAL BLDG E29","IO Cont. (Katamari Haskacy)","404.html","","135","1",],
 ["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Monads and Power Scaling","404.html","","136","1",],
-["5","Mon 15:00-18:00<br/>MVB2.11/1.15","IO","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet08.pdf","","137","2",],
+["5","Mon 15:00-18:00<br/>MVB2.11/1.15","IO","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet08.pdf","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
-["8","(optional)","Maps, Tries, Sets, and Perfect Trees","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3.pdf","","139","3",],
-["12","in your own time","Mock Test","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","","142","2",],
-["2","Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>","Function Composition and Data Transformations","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/slides/function-composition.pdf","","144","1",],
-["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Mock Test (interactive quiz)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","","145","1",],
-["5","Mon 15:00-18:00<br/>MVB2.11/1.15","Monads and Data Transformations","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09.pdf","","146","2",],
+["8","(optional)","Maps, Tries, Sets, and Perfect Trees","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3.pdf","","137","3",],
+["12","in your own time","Mock Test","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","","140","2",],
+["2","Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>","Function Composition and Data Transformations","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/slides/function-composition.pdf","","142","1",],
+["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Mock Test (interactive quiz)","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","","143","1",],
+["5","Mon 15:00-18:00<br/>MVB2.11/1.15","Monads and Data Transformations","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09.pdf","","144","2",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
@@ -286,17 +286,15 @@ const files = [
 ["134","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/answerBonus2Dyslexic.pdf","answerBonus2Dyslexic.pdf",],
 ["135","https://forms.office.com/e/Q8rH5TSGCa","Minute Sheet",],
 ["136","https://forms.office.com/e/fJHcHfLUsz","Minute Sheet",],
-["137","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet08.pdf","sheet08.pdf",],
-["138","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet08Dyslexic.pdf","sheet08Dyslexic.pdf",],
-["139","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/DataMap.pdf","Data.Map",],
-["140","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3.pdf","sheetBonus3.pdf",],
-["141","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3Dyslexic.pdf","sheetBonus3Dyslexic.pdf",],
-["142","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","mock.pdf",],
-["143","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock-answers.pdf","mock-answers.pdf",],
-["144","https://forms.office.com/e/jscNkH3f5Z","Minute Sheet",],
-["145","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","mock.pdf",],
-["146","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09.pdf","sheet09.pdf",],
-["147","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09Dyslexic.pdf","sheet09Dyslexic.pdf",],
+["137","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/DataMap.pdf","Data.Map",],
+["138","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3.pdf","sheetBonus3.pdf",],
+["139","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheetBonus3Dyslexic.pdf","sheetBonus3Dyslexic.pdf",],
+["140","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","mock.pdf",],
+["141","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock-answers.pdf","mock-answers.pdf",],
+["142","https://forms.office.com/e/jscNkH3f5Z","Minute Sheet",],
+["143","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/notes/mock.pdf","mock.pdf",],
+["144","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09.pdf","sheet09.pdf",],
+["145","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet09Dyslexic.pdf","sheet09Dyslexic.pdf",],
 
 ];
 
