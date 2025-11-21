@@ -143,8 +143,7 @@ var activities = [
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["0", "Fri 21/11/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL",   "PREPROCESSOR",  "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_21_OR.pdf",  "https://mediasite.bris.ac.uk/Mediasite/Play/554d0dcf701a44eca46968749456ee851d",  "112", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["8", "",                     "",                                 "", "", "0", "0"],
-//["7", "in your own time", "</a>SKETCH ASSIGNMENT<hr/><a>", "", "", "0", "0"],
+["7", "in your own time", "SKETCH ASSIGNMENT<br/>(30% of unit mark)<hr/>Release Time<br/>Fri 21/11/25, 4pm<hr/><b>Submission Deadline</b><br/>Thu 04/11/25<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Wed 26/11/25<br/>Weds 03/12/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15", "", "", "", ""],
  
 //WEEK 10 - 
 ["10", "",                     "",                                 "", "", "0", "0"],
@@ -516,6 +515,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
