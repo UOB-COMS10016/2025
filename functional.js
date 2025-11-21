@@ -108,7 +108,7 @@ const activities = [
 ["0","","","","","0","0",],
 ["2","Mon 10:00-10:50<br/>BIOMEDICAL BLDG E29","IO Cont. (Katamari Haskacy)","404.html","","135","1",],
 ["2","Tues 16:00-16:50<br/>CHEM BLDG LT1","Monads and Power Scaling","404.html","","136","1",],
-["5","Mon 15:00-18:00<br/>MVB2.11/1.15","IO","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/sheet08.pdf","","0","0",],
+["5","Mon 15:00-18:00<br/>MVB2.11/1.15","IO","https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/functional/sheets/404.pdf","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
 ["0","","","","","0","0",],
