@@ -10,6 +10,7 @@
 module Main where
 
 import Data.List (nub, sortOn)
+-- cabal install --lib containers --package-env .
 import Data.Map.Strict (Map)
 import Data.Map.Strict qualified as M
 import Text.Printf (printf)
@@ -449,11 +450,13 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Nothing,
+                slidesFile' = Just (BBLectureCode "KatamariHaskacyTemplate.hs"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/Q8rH5TSGCa"
+            -- , lectureCode "KatamariHaskacyBP.hs"
+            , lectureCode "KatamariHaskacyTemplate.hs"
             ]
         },
       Entry
