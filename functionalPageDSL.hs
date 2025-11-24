@@ -475,7 +475,7 @@ functionalPage =
 
       Entry
         { title = "IO",
-          spec = Worksheet "sheet08.hs",
+          spec = Worksheet "sheet08.pdf",
           materials = sheets 8 -- ++ answers 8
         },
       Entry
