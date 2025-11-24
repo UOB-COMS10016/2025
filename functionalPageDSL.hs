@@ -476,12 +476,12 @@ functionalPage =
       Entry
         { title = "IO",
           spec = Worksheet "sheet08.hs",
-          materials = sheets 8 -- ++ answers 8
+          materials = sheets 8 ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
           spec = WorksheetBonus "sheetBonus3.pdf",
-          materials = note "Data.Map" "DataMap.pdf" : sheetsBonus 3 -- ++ answersBonus 3
+          materials = note "Data.Map" "DataMap.pdf" : sheetsBonus 3 ++ answersBonus 3
         }
     ],
     -- Week 11
