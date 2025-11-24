@@ -475,8 +475,8 @@ functionalPage =
 
       Entry
         { title = "IO",
-          spec = Worksheet "404.pdf",
-          materials = [] -- sheets 8 -- ++ answers 8
+          spec = Worksheet "sheet08.hs",
+          materials = sheets 8 -- ++ answers 8
         },
       Entry
         { title = "Maps, Tries, Sets, and Perfect Trees",
