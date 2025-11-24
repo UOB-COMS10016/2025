@@ -450,12 +450,13 @@ functionalPage =
           spec =
             Lecture
               { slot = First,
-                slidesFile' = Just (BBLectureCode "KatamariHaskacyTemplate.hs"),
+                slidesFile' = Just (BBLectureCode "KatamariHaskacyBP.hs"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/Q8rH5TSGCa"
-            -- , lectureCode "KatamariHaskacyBP.hs"
+            , lectureCode "MinSheetLecture16.hs"
+            , lectureCode "KatamariHaskacyBP.hs"
             , lectureCode "KatamariHaskacyTemplate.hs"
             ]
         },
