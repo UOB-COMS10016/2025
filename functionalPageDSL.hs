@@ -461,15 +461,16 @@ functionalPage =
             ]
         },
       Entry
-        { title = "Monads and Power Scaling",
+        { title = "Functor and Applicative Power Scaling",
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing,
+                slidesFile' = Just (External "https://wayground.com/join?gc=60715962"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/fJHcHfLUsz"
+            , external "Functor and Applicative slides + quiz" "https://wayground.com/join?gc=60715962"
             ]
         },
 
@@ -496,7 +497,7 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Function Composition and Data Transformations",
+        { title = "Monad Power Scaling + Data Transformations",
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
@@ -516,13 +517,13 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Just (External $ noteLink "mock.pdf"),
+                slidesFile' = Nothing, -- Just (External $ noteLink "mock.pdf"),
                 lectureRecording = Nothing
               },
           materials =
             map
               note'
-              [ "mock.pdf"
+              [ -- "mock.pdf"
               --, "mock-answers.pdf"
               ]
         },
@@ -561,11 +562,11 @@ functionalPage =
       --                     "https://quizizz.com/admin/presentation/619be26fa9afb8001d4e68fa"
       --         ]
       --     }
-        Entry
-          { title = "Revision of previous sheets"
-          , spec = Worksheet "sheet09.pdf"
-          , materials = []
-          }
+        -- Entry
+        --   { title = "Revision of previous sheets"
+        --   , spec = Worksheet "sheet09.pdf"
+        --   , materials = []
+        --   }
       -- , Entry
       --     { title = "Sheet of Death"
       --     , spec = WorksheetBonus "sheetBonus4.pdf"
