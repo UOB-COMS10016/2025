@@ -147,12 +147,12 @@ var activities = [
  
 //WEEK 10 - 
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Thu 21/11/24<br/>12:00pm-12:50pm<br/>CHEM BLDG LT1",   "DESIGN", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_22.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/f205eea1d0014aa286f0bf98d613ee5f1d",  "112", "1"],
+["0", "Thu 27/11/25<br/>16:00pm-16:50pm<br/>CHEM BLDG LT1",   "DESIGN", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_22.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/f205eea1d0014aa286f0bf98d613ee5f1d",  "112", "1"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "<b>Submission Deadline</b><br/>Thu 04/12/25<br/>01:00pm UK time<hr/>",                     "",                                  "", "", "0", "0"],
 //["7", "in your own time", "SKETCH ASSIGNMENT<br/>(30% of unit mark)<hr/>", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/week10CW/index.html", "", "133", "19"],
 ["10", "",                     "",                                 "", "", "0", "0"],
-["0", "Fri 21/11/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL", "LIBRARIES", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_23.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/3d51c01de15c41ad8a6492b99775bb981d",  "108", "3"],
+["0", "Fri 28/11/25<br/>10:00am-10:50am<br/>PHYS G42 POWELL", "LIBRARIES", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/COMS10016_23.pdf", "https://mediasite.bris.ac.uk/Mediasite/Play/3d51c01de15c41ad8a6492b99775bb981d",  "108", "3"],
 ["10", "",                     "",                                 "", "", "0", "0"],
 ["8", "<b>Submission Help</b><br/>Wed 26/11/25<br/>Wed 03/12/25<br/>10:00am-01:00pm<br/>MVB2.11/1.15",                     "",                                  "", "", "0", "0"],
  //["8", "<b>Submission Deadline</b><br/>Thu 28/11/24<br/>01:00pm UK time<hr/><b>Submission Help</b><br/>Weds 20/11/24<br/>Weds 27/11/24<br/>10:00am-01:00pm<br/>MVB2.11/1.15<hr/><a target='_blank' href='https://www.ole.bris.ac.uk/ultra/courses/_259156_1/outline'></a>", "", "", "0", "0"], 
@@ -518,6 +518,7 @@ var files = [
 [ "174", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/self.c",                     "self.c"],
 [ "175", "https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS10016_2025_TB-1/content/imperative/ring.c",                     "ring.c"],
 ];
+
 
 
 
