@@ -497,11 +497,11 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Monad Power Scaling + Data Transformations",
+        { title = "Monad Power Scaling",
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Just (BBSlide "function-composition.pdf"),
+                slidesFile' = Nothing,
                 lectureRecording = Nothing
               },
           materials =
