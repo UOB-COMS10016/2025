@@ -528,7 +528,7 @@ functionalPage =
               ]
         },
       Entry
-        { title = "Monads and Data Transformations",
+        { title = "Monads",
           spec = Worksheet "sheet09.pdf",
           materials = sheets 9  -- ++ [sheet "Grogu.hs"] -- ++ answers 9
         }
