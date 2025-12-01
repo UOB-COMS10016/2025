@@ -501,11 +501,12 @@ functionalPage =
           spec =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
-                slidesFile' = Nothing,
+                slidesFile' = Just (External "https://wayground.com/join?gc=43039994"),
                 lectureRecording = Nothing
               },
           materials =
             [ minSheet "https://forms.office.com/e/jscNkH3f5Z"
+            , external "Monads slides + quiz" "https://wayground.com/join?gc=43039994"
             ]
         },
       --   external "Functors and Applicatives slides + quiz"
