@@ -518,15 +518,12 @@ functionalPage =
           spec =
             Lecture
               { slot = Second,
-                slidesFile' = Nothing, -- Just (External $ noteLink "mock.pdf"),
+                slidesFile' = Just (External $ "https://wayground.com/join?gc=59581434"),
                 lectureRecording = Nothing
               },
           materials =
-            map
-              note'
-              [ -- "mock.pdf"
-              --, "mock-answers.pdf"
-              ]
+            [ external "Mock quiz" "https://wayground.com/join?gc=59581434"
+            ]
         },
       Entry
         { title = "Monads",
