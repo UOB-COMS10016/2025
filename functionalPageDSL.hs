@@ -68,7 +68,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "ExpressionsBP.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e8988639f39144fe870cde47f75b90671d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e8988639f39144fe870cde47f75b90671d"
               },
           materials =
             [ lectureCode "ExpressionsBP.hs"
@@ -89,7 +89,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "PatternsAndRecursionBP.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e1f29257460e4182bd80fa64a623fe3f1d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e1f29257460e4182bd80fa64a623fe3f1d"
               },
           materials =
             [ lectureCode "PatternsAndRecursionBP.hs"
@@ -103,7 +103,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "Types.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/8b31499164f14e8eb9429ee6e79c469b1d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/8b31499164f14e8eb9429ee6e79c469b1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/BpZuXP2fVc"
@@ -133,7 +133,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "ListsPatternMatchingBP.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/a17919b245bf4b7fb6e8fc1a030cd6e81d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/a17919b245bf4b7fb6e8fc1a030cd6e81d"
               },
           materials =
             [ lectureCode "ListsPatternMatchingBP.hs"
@@ -147,7 +147,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "ADTsPolymorphismTypeclassesLive.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/6ff54ed428af4d1b9d25ea70135c572e1d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/6ff54ed428af4d1b9d25ea70135c572e1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/6fkHNR7iaW"
@@ -173,7 +173,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "ADTsPolymorphismTypeclassesLive.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Channel/802dc5a531ef4f0a8c517fb026bde3225f/watch/e0ac0f0e335d4589a517c97906c67aa61d?sortBy=most-recent"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/e0ac0f0e335d4589a517c97906c67aa61d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/p70YZ9AvMK"
@@ -192,7 +192,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "HOLive.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/MyMediasite/presentations/08b75ad11e4a40799af16ad46219723e1d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/08b75ad11e4a40799af16ad46219723e1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/szsFDhzxzC"
@@ -230,7 +230,7 @@ functionalPage =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
                 slidesFile' = Just (BBLectureCode "HOLive.hs"),
-                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/MyMediasite/presentations/1cc5a03904124b5394267386be7c6b231d"
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/1cc5a03904124b5394267386be7c6b231d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/5LyvfU8eUu"
@@ -245,7 +245,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "FoldsPart1BP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/0c25e462134346d5a8a51a03c300b95c1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/0TFiDaNH9J"
@@ -277,7 +277,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "FoldsPart2BP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/eb4ecdeefcff41d9b3b2abc4e83d38c31d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/RDDRdr688j"
@@ -292,7 +292,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "FunctorBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/491661c7f706461a979d45347d286e9a1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/vKdE4rXTkw"
@@ -335,7 +335,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "ParsersTemplate.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/1ef73f2313204762a9334b09011735801d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/d7Sv7F7kPF"
@@ -350,7 +350,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "ApplicativeTemplate.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/a98978fda34a4af6a46a542456c394361d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/iacb4N8pbh"
@@ -405,7 +405,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "ApplicativeChessParsingBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/35dc3f438d8148c6b6ddec46dd280c8a1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/9Hd3RVV27R"
@@ -423,7 +423,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (BBLectureCode "IOBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/062d4c1d1b504f4799c9d0c255dd0a3f1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/pkByWDsxVn"
@@ -451,7 +451,7 @@ functionalPage =
             Lecture
               { slot = First,
                 slidesFile' = Just (BBLectureCode "KatamariHaskacyBP.hs"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/f185786896274e328a172000e5d4c6fd1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/Q8rH5TSGCa"
@@ -466,7 +466,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (External "https://wayground.com/join?gc=60715962"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/b4130a3e72e04b1dac534b1efb6038421d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/fJHcHfLUsz"
@@ -502,7 +502,7 @@ functionalPage =
             Lecture
               { slot = Other "Mon 10:00-10:50<br/><u><b>PRIORY RD COMPLX LT</b></u>",
                 slidesFile' = Just (External "https://wayground.com/join?gc=43039994"),
-                lectureRecording = Nothing
+                lectureRecording = Just "https://mediasite.bris.ac.uk/Mediasite/Play/41f1261416714e4cb705dba6674ed55e1d"
               },
           materials =
             [ minSheet "https://forms.office.com/e/jscNkH3f5Z"
@@ -519,7 +519,7 @@ functionalPage =
             Lecture
               { slot = Second,
                 slidesFile' = Just (External $ "https://wayground.com/join?gc=59581434"),
-                lectureRecording = Nothing
+                lectureRecording = Nothing -- Just "https://"
               },
           materials =
             [ external "Mock quiz" "https://wayground.com/join?gc=59581434"
