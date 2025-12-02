@@ -531,7 +531,7 @@ functionalPage =
       Entry
         { title = "Monads",
           spec = Worksheet "sheet09.pdf",
-          materials = sheets 9  -- ++ [sheet "Grogu.hs"] -- ++ answers 9
+          materials = sheets 9 ++ answers 9 -- ++ [sheet "Grogu.hs"]
         }
     ],
     -- Week 12/revision week
