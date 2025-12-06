@@ -523,6 +523,7 @@ functionalPage =
               },
           materials =
             [ external "Mock quiz" "https://wayground.com/join?gc=59581434"
+            , note' "interactive-mock-sheet-with-answers.pdf"
             ]
         },
       Entry
